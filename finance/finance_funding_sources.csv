@@ -1,0 +1,4 @@
+source_id,funder,facility_amount,drawn,tenor,rate
+FND-001,Federal Ministry of Finance,30000000000.0,22000000000.0,10 Years,5.0
+FND-002,Central Bank Intervention Facility,15000000000.0,12500000000.0,7 Years,6.5
+FND-003,African Development Bank (AfDB),10000000000.0,4000000000.0,15 Years,4.2

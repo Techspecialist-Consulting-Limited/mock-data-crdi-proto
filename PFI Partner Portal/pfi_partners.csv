@@ -1,0 +1,39 @@
+partner_id,partner_name,institution_type,region,onboarding_date,status
+PFI-01,"Abiola, Akinwale and Nnamani Bank",Commercial Bank,South-East,2024-02-23,Active
+PFI-02,Adeyemi-Ibrahim Finance,Fintech Lender,South-West,2024-06-09,Active
+PFI-03,Oyekan and Sons Credit,Microfinance Bank,South-West,2024-07-18,Active
+PFI-04,Oshodi-Abiola MFB,Microfinance Bank,South-South,2023-12-05,Active
+PFI-05,Ekwueme-Olawale Bank,Microfinance Bank,North-East,2023-11-06,Active
+PFI-06,Abiola-Obi Bank,Microfinance Bank,North-East,2023-09-10,Active
+PFI-07,Arewa Microfinance Bank Ltd,Fintech Lender,North-East,2023-11-20,Active
+PFI-08,Abiola-Oshodi Credit,Microfinance Bank,North-East,2024-04-13,Active
+PFI-09,Okafor-Adetokunbo Bank,Fintech Lender,North-Central,2024-07-13,Active
+PFI-10,Abiola-Olawale Finance,Microfinance Bank,South-West,2023-10-11,Active
+PFI-11,Ekwueme-Uche Credit,Microfinance Bank,North-East,2023-08-08,Active
+PFI-12,Chukwu Ltd MFB,Microfinance Bank,North-Central,2023-08-09,Active
+PFI-13,"Ogunleye, Balogun and Adetokunbo Finance",Commercial Bank,South-East,2024-04-05,Active
+PFI-14,Okafor-Ojo Bank,Fintech Lender,North-East,2024-01-04,Active
+PFI-15,Adetokunbo Ltd Bank,Fintech Lender,South-South,2024-07-01,Active
+PFI-16,"Ojo, Okonkwo and Ekwueme MFB",Commercial Bank,North-Central,2024-03-29,Active
+PFI-17,Akinwale Inc Credit,Commercial Bank,South-South,2024-01-29,Active
+PFI-18,Okonkwo-Nnamani Finance,Commercial Bank,North-Central,2024-04-14,Active
+PFI-19,Apex Credit Capital,Fintech Lender,South-South,2024-03-12,Active
+PFI-20,"Eze, Adeyemi and Ojo Credit",Fintech Lender,North-West,2023-08-21,Active
+PFI-21,Balogun Inc Finance,Microfinance Bank,North-West,2024-06-11,Active
+PFI-22,Adetokunbo Ltd Bank,Microfinance Bank,South-South,2023-12-12,Active
+PFI-23,"Nnamani, Obasanjo and Oshodi Credit",Commercial Bank,South-South,2023-11-04,Active
+PFI-24,Oshodi PLC Credit,Fintech Lender,South-West,2024-06-06,Active
+PFI-25,Obi-Ibrahim Bank,Microfinance Bank,South-East,2023-11-18,Active
+PFI-26,"Okonkwo, Olawale and Olawale MFB",Fintech Lender,South-South,2024-02-03,Active
+PFI-27,Obasanjo LLC Credit,Fintech Lender,South-West,2024-04-16,Active
+PFI-28,"Ekwueme, Chukwu and Oyekan Credit",Fintech Lender,North-Central,2023-10-19,Active
+PFI-29,"Ekwueme, Eze and Obi Finance",Fintech Lender,North-Central,2024-03-05,Active
+PFI-30,Akinwale Group Bank,Microfinance Bank,South-East,2024-03-21,Active
+PFI-31,Olawale and Sons MFB,Fintech Lender,South-West,2024-02-27,Active
+PFI-32,Ogunleye-Adetokunbo Finance,Microfinance Bank,North-West,2023-12-04,Active
+PFI-33,Adeyemi PLC Finance,Microfinance Bank,North-East,2023-12-11,Active
+PFI-34,"Nnamani, Ekwueme and Adeyemi Credit",Commercial Bank,South-West,2023-08-11,Active
+PFI-35,Balogun Ltd Credit,Microfinance Bank,North-West,2024-08-01,Active
+PFI-36,Olawale-Balogun Bank,Fintech Lender,South-South,2023-09-24,Active
+PFI-37,Balogun Group Credit,Fintech Lender,North-East,2023-11-23,Active
+PFI-38,Ojo Inc MFB,Commercial Bank,North-West,2023-12-16,Active
