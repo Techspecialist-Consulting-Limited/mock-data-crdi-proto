@@ -1,0 +1,67 @@
+drawdown_id,source_id,drawdown_date,amount,purpose,status
+DRW-202408-1,FND-001,2024-08-01,3529030096.79,Credit Capital Funding,Received
+DRW-202408-2,FND-002,2024-08-01,1893755958.48,Operations & Credit Funding,Received
+DRW-202408-3,FND-003,2024-08-01,1177213944.72,Operations & Credit Funding,Received
+DRW-202409-1,FND-001,2024-09-01,2522505228.46,Credit Capital Funding,Received
+DRW-202409-2,FND-002,2024-09-01,1183689756.11,Operations & Credit Funding,Received
+DRW-202409-3,FND-003,2024-09-01,693805015.44,Operations & Credit Funding,Received
+DRW-202410-1,FND-001,2024-10-01,1848311356.8,Credit Capital Funding,Received
+DRW-202410-2,FND-002,2024-10-01,1377831042.47,Operations & Credit Funding,Received
+DRW-202410-3,FND-003,2024-10-01,473857600.73,Operations & Credit Funding,Received
+DRW-202411-1,FND-001,2024-11-01,1913023185.9,Credit Capital Funding,Received
+DRW-202411-2,FND-002,2024-11-01,711235594.77,Operations & Credit Funding,Received
+DRW-202411-3,FND-003,2024-11-01,375741219.33,Operations & Credit Funding,Received
+DRW-202412-1,FND-001,2024-12-01,1171150830.05,Credit Capital Funding,Received
+DRW-202412-2,FND-002,2024-12-01,1347767903.83,Operations & Credit Funding,Received
+DRW-202412-3,FND-003,2024-12-01,581081266.12,Operations & Credit Funding,Received
+DRW-202501-1,FND-001,2025-01-01,1457726193.94,Credit Capital Funding,Received
+DRW-202501-2,FND-002,2025-01-01,862941940.7,Operations & Credit Funding,Received
+DRW-202501-3,FND-003,2025-01-01,379331865.36,Operations & Credit Funding,Received
+DRW-202502-1,FND-001,2025-02-01,955531521.21,Credit Capital Funding,Received
+DRW-202502-2,FND-002,2025-02-01,450520060.81,Operations & Credit Funding,Received
+DRW-202502-3,FND-003,2025-02-01,193948417.97,Operations & Credit Funding,Received
+DRW-202503-1,FND-001,2025-03-01,808248911.78,Credit Capital Funding,Received
+DRW-202503-2,FND-002,2025-03-01,636573814.77,Operations & Credit Funding,Received
+DRW-202503-3,FND-003,2025-03-01,255177273.45,Operations & Credit Funding,Received
+DRW-202504-1,FND-001,2025-04-01,470389305.17,Credit Capital Funding,Received
+DRW-202504-2,FND-002,2025-04-01,367002320.56,Operations & Credit Funding,Received
+DRW-202504-3,FND-003,2025-04-01,162608374.27,Operations & Credit Funding,Received
+DRW-202505-1,FND-001,2025-05-01,690834403.95,Credit Capital Funding,Received
+DRW-202505-2,FND-002,2025-05-01,310692290.14,Operations & Credit Funding,Received
+DRW-202505-3,FND-003,2025-05-01,198473305.91,Operations & Credit Funding,Received
+DRW-202506-1,FND-001,2025-06-01,307947855.15,Credit Capital Funding,Received
+DRW-202506-2,FND-002,2025-06-01,233232516.12,Operations & Credit Funding,Received
+DRW-202506-3,FND-003,2025-06-01,58819628.73,Operations & Credit Funding,Received
+DRW-202507-1,FND-001,2025-07-01,231729197.62,Credit Capital Funding,Received
+DRW-202507-2,FND-002,2025-07-01,123972829.43,Operations & Credit Funding,Received
+DRW-202507-3,FND-003,2025-07-01,44297972.95,Operations & Credit Funding,Received
+DRW-202508-1,FND-001,2025-08-01,154568046.12,Credit Capital Funding,Received
+DRW-202508-2,FND-002,2025-08-01,78429245.74,Operations & Credit Funding,Received
+DRW-202508-3,FND-003,2025-08-01,67002708.14,Operations & Credit Funding,Received
+DRW-202510-1,FND-001,2025-10-01,184041117.79,Credit Capital Funding,Received
+DRW-202510-2,FND-002,2025-10-01,85525452.84,Operations & Credit Funding,Received
+DRW-202510-3,FND-003,2025-10-01,30433429.36,Operations & Credit Funding,Received
+DRW-202511-1,FND-001,2025-11-01,262737793.42,Credit Capital Funding,Received
+DRW-202511-2,FND-002,2025-11-01,84778131.07,Operations & Credit Funding,Received
+DRW-202511-3,FND-003,2025-11-01,52484075.51,Operations & Credit Funding,Received
+DRW-202512-1,FND-001,2025-12-01,53673827.95,Credit Capital Funding,Received
+DRW-202512-2,FND-002,2025-12-01,32226093.46,Operations & Credit Funding,Received
+DRW-202512-3,FND-003,2025-12-01,14100078.6,Operations & Credit Funding,Received
+DRW-202601-1,FND-001,2026-01-01,104642228.38,Credit Capital Funding,Received
+DRW-202601-2,FND-002,2026-01-01,61830401.46,Operations & Credit Funding,Received
+DRW-202601-3,FND-003,2026-01-01,33527370.16,Operations & Credit Funding,Received
+DRW-202602-1,FND-001,2026-02-01,296545861.45,Credit Capital Funding,Received
+DRW-202602-2,FND-002,2026-02-01,139506306.21,Operations & Credit Funding,Received
+DRW-202602-3,FND-003,2026-02-01,63947832.34,Operations & Credit Funding,Received
+DRW-202603-1,FND-001,2026-03-01,597499839.77,Credit Capital Funding,Received
+DRW-202603-2,FND-002,2026-03-01,339522267.81,Operations & Credit Funding,Received
+DRW-202603-3,FND-003,2026-03-01,262977892.41,Operations & Credit Funding,Received
+DRW-202604-1,FND-001,2026-04-01,544463859.34,Credit Capital Funding,Received
+DRW-202604-2,FND-002,2026-04-01,281646980.94,Operations & Credit Funding,Received
+DRW-202604-3,FND-003,2026-04-01,173889159.73,Operations & Credit Funding,Received
+DRW-202605-1,FND-001,2026-05-01,680072923.04,Credit Capital Funding,Received
+DRW-202605-2,FND-002,2026-05-01,833429007.32,Operations & Credit Funding,Received
+DRW-202605-3,FND-003,2026-05-01,186498069.64,Operations & Credit Funding,Received
+DRW-202606-1,FND-001,2026-06-01,833186176.0,Credit Capital Funding,Received
+DRW-202606-2,FND-002,2026-06-01,261961534.1,Operations & Credit Funding,Received
+DRW-202606-3,FND-003,2026-06-01,204852289.9,Operations & Credit Funding,Received
