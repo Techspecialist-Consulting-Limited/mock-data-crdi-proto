@@ -1,0 +1,801 @@
+requisition_id,department,category,estimated_value,raised_date,status
+PR-2026-00001,Procurement & Logistics,Field Survey Services,14270000.0,2026-06-20,Awarded
+PR-2025-00002,Procurement & Logistics,Office Consumables,40840000.0,2025-07-29,Awarded
+PR-2025-00003,Risk & Compliance,Hardware Procurement,39450000.0,2025-12-22,Awarded
+PR-2025-00004,IT & Infrastructure,Media & PR,32830000.0,2025-02-11,Awarded
+PR-2026-00005,Lending Operations,Hardware Procurement,19490000.0,2026-06-07,Cancelled
+PR-2025-00006,Lending Operations,Hardware Procurement,34100000.0,2025-07-11,Awarded
+PR-2025-00007,Risk & Compliance,Office Consumables,40060000.0,2025-10-25,Awarded
+PR-2025-00008,Procurement & Logistics,Field Survey Services,32950000.0,2025-11-15,Awarded
+PR-2025-00009,Executive Admin,Office Consumables,11980000.0,2025-08-29,Awarded
+PR-2025-00010,Lending Operations,Field Survey Services,22040000.0,2025-09-07,Awarded
+PR-2026-00011,Procurement & Logistics,Media & PR,18130000.0,2026-04-28,Awarded
+PR-2025-00012,Lending Operations,Software Licenses,9270000.0,2025-09-08,Awarded
+PR-2025-00013,IT & Infrastructure,Field Survey Services,29360000.0,2025-11-30,Awarded
+PR-2025-00014,Risk & Compliance,Field Survey Services,14780000.0,2025-06-04,Awarded
+PR-2024-00015,Lending Operations,Office Consumables,40570000.0,2024-09-11,Awarded
+PR-2025-00016,Lending Operations,Hardware Procurement,13100000.0,2025-10-10,Awarded
+PR-2025-00017,Lending Operations,Software Licenses,4760000.0,2025-10-30,Awarded
+PR-2025-00018,Procurement & Logistics,Office Consumables,9420000.0,2025-12-04,Awarded
+PR-2026-00019,Procurement & Logistics,Hardware Procurement,36050000.0,2026-03-02,Awarded
+PR-2025-00020,IT & Infrastructure,Field Survey Services,21580000.0,2025-10-08,Bidding
+PR-2025-00021,Procurement & Logistics,Field Survey Services,21280000.0,2025-01-23,Awarded
+PR-2025-00022,Risk & Compliance,Software Licenses,28110000.0,2025-09-25,Awarded
+PR-2026-00023,Risk & Compliance,Office Consumables,32750000.0,2026-01-10,Awarded
+PR-2025-00024,Executive Admin,Field Survey Services,9690000.0,2025-04-30,Awarded
+PR-2025-00025,Risk & Compliance,Hardware Procurement,1730000.0,2025-07-08,Awarded
+PR-2025-00026,IT & Infrastructure,Office Consumables,17330000.0,2025-01-27,Awarded
+PR-2024-00027,Lending Operations,Office Consumables,4210000.0,2024-09-27,Awarded
+PR-2025-00028,Executive Admin,Field Survey Services,21540000.0,2025-08-12,Awarded
+PR-2024-00029,Lending Operations,Field Survey Services,22620000.0,2024-08-12,Awarded
+PR-2024-00030,Lending Operations,Hardware Procurement,9840000.0,2024-10-15,Awarded
+PR-2024-00031,Executive Admin,Media & PR,30070000.0,2024-10-15,Awarded
+PR-2024-00032,Procurement & Logistics,Media & PR,4090000.0,2024-10-11,Awarded
+PR-2026-00033,Lending Operations,Media & PR,16640000.0,2026-07-07,Awarded
+PR-2025-00034,IT & Infrastructure,Office Consumables,12040000.0,2025-08-25,Awarded
+PR-2025-00035,IT & Infrastructure,Hardware Procurement,18820000.0,2025-01-26,Awarded
+PR-2025-00036,Procurement & Logistics,Field Survey Services,22640000.0,2025-11-11,Awarded
+PR-2026-00037,Lending Operations,Hardware Procurement,9510000.0,2026-01-01,Awarded
+PR-2025-00038,Risk & Compliance,Media & PR,32720000.0,2025-08-13,Awarded
+PR-2025-00039,IT & Infrastructure,Office Consumables,42180000.0,2025-03-08,Awarded
+PR-2025-00040,Risk & Compliance,Software Licenses,15400000.0,2025-07-24,Awarded
+PR-2025-00041,Risk & Compliance,Hardware Procurement,440000.0,2025-02-24,Bidding
+PR-2025-00042,Executive Admin,Office Consumables,22300000.0,2025-12-25,Awarded
+PR-2026-00043,IT & Infrastructure,Software Licenses,20200000.0,2026-01-28,Awarded
+PR-2025-00044,Executive Admin,Media & PR,25600000.0,2025-03-22,Bidding
+PR-2026-00045,Lending Operations,Hardware Procurement,19330000.0,2026-06-08,Cancelled
+PR-2026-00046,Executive Admin,Software Licenses,27780000.0,2026-04-10,Awarded
+PR-2025-00047,Executive Admin,Software Licenses,740000.0,2025-12-17,Bidding
+PR-2024-00048,IT & Infrastructure,Office Consumables,9680000.0,2024-11-12,Bidding
+PR-2025-00049,IT & Infrastructure,Software Licenses,20020000.0,2025-08-17,Cancelled
+PR-2026-00050,Procurement & Logistics,Software Licenses,22650000.0,2026-01-08,Cancelled
+PR-2026-00051,Procurement & Logistics,Hardware Procurement,31600000.0,2026-03-12,Awarded
+PR-2025-00052,Procurement & Logistics,Field Survey Services,11370000.0,2025-07-29,Bidding
+PR-2025-00053,Executive Admin,Media & PR,34750000.0,2025-12-11,Awarded
+PR-2025-00054,Executive Admin,Media & PR,15140000.0,2025-12-28,Bidding
+PR-2025-00055,Risk & Compliance,Media & PR,18850000.0,2025-11-15,Bidding
+PR-2024-00056,Lending Operations,Media & PR,5460000.0,2024-11-20,Awarded
+PR-2024-00057,Executive Admin,Software Licenses,18180000.0,2024-12-09,Awarded
+PR-2025-00058,Risk & Compliance,Software Licenses,29970000.0,2025-07-11,Awarded
+PR-2025-00059,Executive Admin,Field Survey Services,30310000.0,2025-08-10,Awarded
+PR-2024-00060,Risk & Compliance,Hardware Procurement,34240000.0,2024-12-14,Awarded
+PR-2026-00061,Lending Operations,Software Licenses,39270000.0,2026-03-21,Awarded
+PR-2025-00062,IT & Infrastructure,Field Survey Services,7590000.0,2025-10-27,Awarded
+PR-2025-00063,Procurement & Logistics,Hardware Procurement,25240000.0,2025-04-10,Bidding
+PR-2025-00064,IT & Infrastructure,Media & PR,21080000.0,2025-09-19,Cancelled
+PR-2025-00065,IT & Infrastructure,Media & PR,4060000.0,2025-01-12,Awarded
+PR-2026-00066,IT & Infrastructure,Office Consumables,9220000.0,2026-06-24,Awarded
+PR-2025-00067,Risk & Compliance,Office Consumables,32980000.0,2025-02-13,Awarded
+PR-2025-00068,Executive Admin,Field Survey Services,14920000.0,2025-11-22,Bidding
+PR-2024-00069,Lending Operations,Field Survey Services,22140000.0,2024-10-06,Awarded
+PR-2024-00070,IT & Infrastructure,Hardware Procurement,25340000.0,2024-08-29,Awarded
+PR-2025-00071,Executive Admin,Hardware Procurement,15970000.0,2025-09-15,Awarded
+PR-2024-00072,Procurement & Logistics,Hardware Procurement,33580000.0,2024-11-17,Awarded
+PR-2026-00073,IT & Infrastructure,Software Licenses,32140000.0,2026-07-26,Awarded
+PR-2025-00074,Risk & Compliance,Media & PR,2790000.0,2025-12-24,Bidding
+PR-2024-00075,Risk & Compliance,Office Consumables,29630000.0,2024-12-20,Bidding
+PR-2026-00076,IT & Infrastructure,Media & PR,5730000.0,2026-04-13,Bidding
+PR-2024-00077,Procurement & Logistics,Software Licenses,43510000.0,2024-08-27,Awarded
+PR-2025-00078,Risk & Compliance,Office Consumables,21700000.0,2025-08-20,Awarded
+PR-2026-00079,IT & Infrastructure,Hardware Procurement,480000.0,2026-01-12,Awarded
+PR-2025-00080,Executive Admin,Software Licenses,4650000.0,2025-11-22,Bidding
+PR-2025-00081,IT & Infrastructure,Office Consumables,4030000.0,2025-02-15,Bidding
+PR-2024-00082,Executive Admin,Office Consumables,20240000.0,2024-11-23,Awarded
+PR-2025-00083,IT & Infrastructure,Hardware Procurement,23820000.0,2025-04-02,Awarded
+PR-2025-00084,Executive Admin,Software Licenses,25320000.0,2025-12-02,Bidding
+PR-2026-00085,Procurement & Logistics,Hardware Procurement,34910000.0,2026-02-05,Bidding
+PR-2024-00086,IT & Infrastructure,Hardware Procurement,26140000.0,2024-09-30,Awarded
+PR-2024-00087,IT & Infrastructure,Field Survey Services,25770000.0,2024-09-04,Awarded
+PR-2024-00088,Executive Admin,Media & PR,2920000.0,2024-11-19,Awarded
+PR-2025-00089,IT & Infrastructure,Field Survey Services,42510000.0,2025-05-01,Bidding
+PR-2025-00090,Risk & Compliance,Media & PR,12500000.0,2025-11-21,Awarded
+PR-2025-00091,Risk & Compliance,Hardware Procurement,35270000.0,2025-04-18,Awarded
+PR-2026-00092,Executive Admin,Office Consumables,11880000.0,2026-02-20,Awarded
+PR-2026-00093,IT & Infrastructure,Office Consumables,9010000.0,2026-01-03,Awarded
+PR-2025-00094,IT & Infrastructure,Media & PR,30870000.0,2025-10-21,Awarded
+PR-2025-00095,Procurement & Logistics,Software Licenses,33210000.0,2025-08-17,Bidding
+PR-2024-00096,Risk & Compliance,Office Consumables,39450000.0,2024-09-23,Awarded
+PR-2026-00097,Executive Admin,Hardware Procurement,24210000.0,2026-07-10,Awarded
+PR-2026-00098,Procurement & Logistics,Software Licenses,27930000.0,2026-06-09,Bidding
+PR-2025-00099,IT & Infrastructure,Software Licenses,8300000.0,2025-12-25,Awarded
+PR-2024-00100,Executive Admin,Field Survey Services,43900000.0,2024-09-09,Awarded
+PR-2024-00101,Procurement & Logistics,Hardware Procurement,22570000.0,2024-10-05,Bidding
+PR-2024-00102,Risk & Compliance,Media & PR,2760000.0,2024-12-13,Awarded
+PR-2026-00103,Executive Admin,Media & PR,26560000.0,2026-06-02,Awarded
+PR-2026-00104,Executive Admin,Media & PR,22160000.0,2026-01-25,Awarded
+PR-2025-00105,Lending Operations,Hardware Procurement,17000000.0,2025-05-27,Bidding
+PR-2024-00106,Procurement & Logistics,Software Licenses,10450000.0,2024-10-18,Cancelled
+PR-2025-00107,IT & Infrastructure,Software Licenses,6370000.0,2025-08-08,Awarded
+PR-2025-00108,Lending Operations,Field Survey Services,44010000.0,2025-12-27,Bidding
+PR-2024-00109,Procurement & Logistics,Media & PR,32850000.0,2024-08-28,Bidding
+PR-2026-00110,IT & Infrastructure,Software Licenses,14590000.0,2026-07-27,Bidding
+PR-2026-00111,IT & Infrastructure,Field Survey Services,14880000.0,2026-06-15,Awarded
+PR-2024-00112,IT & Infrastructure,Media & PR,16010000.0,2024-09-17,Cancelled
+PR-2025-00113,Risk & Compliance,Office Consumables,30260000.0,2025-12-22,Awarded
+PR-2024-00114,Lending Operations,Software Licenses,16440000.0,2024-11-28,Awarded
+PR-2025-00115,Executive Admin,Media & PR,38830000.0,2025-11-16,Awarded
+PR-2026-00116,IT & Infrastructure,Field Survey Services,24580000.0,2026-02-14,Bidding
+PR-2024-00117,Executive Admin,Media & PR,19760000.0,2024-10-30,Cancelled
+PR-2025-00118,Lending Operations,Office Consumables,11450000.0,2025-06-06,Awarded
+PR-2025-00119,Lending Operations,Software Licenses,14560000.0,2025-08-26,Awarded
+PR-2025-00120,Executive Admin,Office Consumables,20680000.0,2025-03-12,Awarded
+PR-2025-00121,IT & Infrastructure,Software Licenses,37420000.0,2025-03-26,Awarded
+PR-2025-00122,Executive Admin,Hardware Procurement,18130000.0,2025-08-06,Awarded
+PR-2026-00123,IT & Infrastructure,Software Licenses,42530000.0,2026-06-18,Awarded
+PR-2024-00124,Lending Operations,Software Licenses,43820000.0,2024-09-21,Awarded
+PR-2026-00125,Lending Operations,Office Consumables,8170000.0,2026-06-24,Awarded
+PR-2024-00126,Lending Operations,Hardware Procurement,34020000.0,2024-12-15,Awarded
+PR-2025-00127,Procurement & Logistics,Field Survey Services,34010000.0,2025-03-26,Awarded
+PR-2025-00128,Executive Admin,Software Licenses,33300000.0,2025-06-14,Awarded
+PR-2025-00129,Risk & Compliance,Media & PR,44660000.0,2025-02-24,Awarded
+PR-2026-00130,Risk & Compliance,Office Consumables,23620000.0,2026-07-23,Awarded
+PR-2025-00131,Executive Admin,Media & PR,9480000.0,2025-11-19,Awarded
+PR-2026-00132,Executive Admin,Field Survey Services,850000.0,2026-05-26,Bidding
+PR-2024-00133,IT & Infrastructure,Hardware Procurement,37000000.0,2024-08-10,Awarded
+PR-2024-00134,IT & Infrastructure,Software Licenses,23660000.0,2024-10-05,Cancelled
+PR-2026-00135,Procurement & Logistics,Software Licenses,29100000.0,2026-07-09,Awarded
+PR-2026-00136,Risk & Compliance,Hardware Procurement,24760000.0,2026-05-01,Awarded
+PR-2025-00137,Procurement & Logistics,Office Consumables,44420000.0,2025-12-28,Awarded
+PR-2025-00138,IT & Infrastructure,Software Licenses,2670000.0,2025-06-05,Bidding
+PR-2024-00139,Procurement & Logistics,Hardware Procurement,38970000.0,2024-08-22,Awarded
+PR-2025-00140,IT & Infrastructure,Office Consumables,40090000.0,2025-11-01,Bidding
+PR-2024-00141,Lending Operations,Software Licenses,22360000.0,2024-12-19,Awarded
+PR-2024-00142,Risk & Compliance,Office Consumables,38720000.0,2024-09-09,Awarded
+PR-2026-00143,Risk & Compliance,Office Consumables,41330000.0,2026-04-21,Bidding
+PR-2025-00144,Risk & Compliance,Hardware Procurement,22550000.0,2025-02-26,Awarded
+PR-2026-00145,Executive Admin,Software Licenses,27760000.0,2026-06-04,Awarded
+PR-2026-00146,Risk & Compliance,Hardware Procurement,4200000.0,2026-04-25,Bidding
+PR-2024-00147,Lending Operations,Office Consumables,20240000.0,2024-10-24,Awarded
+PR-2024-00148,Risk & Compliance,Media & PR,2190000.0,2024-08-06,Awarded
+PR-2025-00149,Procurement & Logistics,Media & PR,920000.0,2025-06-18,Awarded
+PR-2025-00150,Lending Operations,Office Consumables,28010000.0,2025-09-30,Awarded
+PR-2026-00151,Procurement & Logistics,Hardware Procurement,20720000.0,2026-02-21,Bidding
+PR-2025-00152,Lending Operations,Office Consumables,27540000.0,2025-12-17,Awarded
+PR-2025-00153,Executive Admin,Office Consumables,41060000.0,2025-07-08,Bidding
+PR-2025-00154,Risk & Compliance,Field Survey Services,44210000.0,2025-10-26,Bidding
+PR-2026-00155,Procurement & Logistics,Office Consumables,24730000.0,2026-07-06,Awarded
+PR-2025-00156,Lending Operations,Media & PR,19310000.0,2025-10-07,Awarded
+PR-2026-00157,IT & Infrastructure,Field Survey Services,26250000.0,2026-03-17,Awarded
+PR-2025-00158,Risk & Compliance,Hardware Procurement,9400000.0,2025-04-19,Bidding
+PR-2025-00159,Procurement & Logistics,Field Survey Services,10060000.0,2025-04-02,Awarded
+PR-2025-00160,Risk & Compliance,Office Consumables,29140000.0,2025-05-12,Awarded
+PR-2026-00161,Executive Admin,Field Survey Services,3210000.0,2026-07-23,Awarded
+PR-2025-00162,IT & Infrastructure,Field Survey Services,28800000.0,2025-07-05,Bidding
+PR-2025-00163,Executive Admin,Field Survey Services,19870000.0,2025-06-06,Awarded
+PR-2026-00164,Risk & Compliance,Media & PR,3780000.0,2026-05-27,Awarded
+PR-2026-00165,IT & Infrastructure,Software Licenses,5520000.0,2026-06-20,Bidding
+PR-2026-00166,IT & Infrastructure,Field Survey Services,40500000.0,2026-06-27,Awarded
+PR-2025-00167,Executive Admin,Software Licenses,6150000.0,2025-03-05,Bidding
+PR-2025-00168,IT & Infrastructure,Field Survey Services,42840000.0,2025-08-05,Bidding
+PR-2026-00169,Lending Operations,Hardware Procurement,36630000.0,2026-07-04,Awarded
+PR-2025-00170,Lending Operations,Office Consumables,36090000.0,2025-11-19,Awarded
+PR-2025-00171,Risk & Compliance,Field Survey Services,6540000.0,2025-01-30,Awarded
+PR-2025-00172,IT & Infrastructure,Software Licenses,32040000.0,2025-04-23,Awarded
+PR-2026-00173,Lending Operations,Office Consumables,18510000.0,2026-06-14,Bidding
+PR-2026-00174,IT & Infrastructure,Software Licenses,32960000.0,2026-08-03,Awarded
+PR-2025-00175,Risk & Compliance,Media & PR,30500000.0,2025-09-21,Bidding
+PR-2025-00176,Lending Operations,Field Survey Services,29880000.0,2025-07-12,Awarded
+PR-2026-00177,Executive Admin,Software Licenses,43030000.0,2026-05-19,Cancelled
+PR-2025-00178,Procurement & Logistics,Media & PR,9190000.0,2025-05-13,Cancelled
+PR-2024-00179,Procurement & Logistics,Media & PR,12930000.0,2024-12-26,Awarded
+PR-2026-00180,Risk & Compliance,Office Consumables,17540000.0,2026-05-21,Bidding
+PR-2025-00181,Lending Operations,Media & PR,17540000.0,2025-05-27,Awarded
+PR-2026-00182,Procurement & Logistics,Media & PR,13830000.0,2026-03-16,Awarded
+PR-2024-00183,Risk & Compliance,Office Consumables,15470000.0,2024-08-20,Awarded
+PR-2026-00184,Lending Operations,Hardware Procurement,30190000.0,2026-01-06,Awarded
+PR-2024-00185,IT & Infrastructure,Field Survey Services,27210000.0,2024-08-19,Awarded
+PR-2025-00186,Risk & Compliance,Hardware Procurement,21480000.0,2025-12-07,Awarded
+PR-2026-00187,Executive Admin,Media & PR,5430000.0,2026-06-15,Bidding
+PR-2026-00188,Procurement & Logistics,Field Survey Services,17400000.0,2026-07-27,Awarded
+PR-2025-00189,Lending Operations,Media & PR,37010000.0,2025-01-27,Awarded
+PR-2024-00190,IT & Infrastructure,Hardware Procurement,13130000.0,2024-10-08,Awarded
+PR-2024-00191,Procurement & Logistics,Media & PR,38340000.0,2024-12-21,Awarded
+PR-2025-00192,Risk & Compliance,Field Survey Services,24280000.0,2025-04-09,Awarded
+PR-2024-00193,Executive Admin,Hardware Procurement,2570000.0,2024-09-10,Cancelled
+PR-2025-00194,Procurement & Logistics,Software Licenses,16180000.0,2025-12-22,Awarded
+PR-2025-00195,Lending Operations,Software Licenses,42950000.0,2025-09-01,Awarded
+PR-2026-00196,Risk & Compliance,Office Consumables,7590000.0,2026-07-22,Awarded
+PR-2025-00197,Executive Admin,Office Consumables,21110000.0,2025-01-23,Awarded
+PR-2025-00198,Risk & Compliance,Software Licenses,26410000.0,2025-09-07,Bidding
+PR-2025-00199,IT & Infrastructure,Office Consumables,36880000.0,2025-10-07,Awarded
+PR-2025-00200,Procurement & Logistics,Office Consumables,31610000.0,2025-04-13,Awarded
+PR-2026-00201,Procurement & Logistics,Office Consumables,27960000.0,2026-08-01,Awarded
+PR-2026-00202,Procurement & Logistics,Software Licenses,25330000.0,2026-02-06,Awarded
+PR-2025-00203,IT & Infrastructure,Field Survey Services,3870000.0,2025-10-23,Awarded
+PR-2026-00204,Risk & Compliance,Software Licenses,5450000.0,2026-07-07,Bidding
+PR-2025-00205,Lending Operations,Office Consumables,6500000.0,2025-09-13,Awarded
+PR-2024-00206,Procurement & Logistics,Field Survey Services,20100000.0,2024-12-25,Cancelled
+PR-2025-00207,Executive Admin,Office Consumables,15940000.0,2025-09-01,Awarded
+PR-2025-00208,IT & Infrastructure,Hardware Procurement,30320000.0,2025-12-07,Awarded
+PR-2026-00209,Executive Admin,Software Licenses,23670000.0,2026-06-23,Bidding
+PR-2025-00210,IT & Infrastructure,Field Survey Services,37560000.0,2025-10-07,Awarded
+PR-2026-00211,Risk & Compliance,Office Consumables,20730000.0,2026-08-01,Bidding
+PR-2026-00212,Risk & Compliance,Field Survey Services,40540000.0,2026-07-31,Awarded
+PR-2025-00213,Risk & Compliance,Field Survey Services,30040000.0,2025-04-08,Awarded
+PR-2025-00214,IT & Infrastructure,Office Consumables,43590000.0,2025-01-03,Awarded
+PR-2026-00215,Executive Admin,Field Survey Services,18770000.0,2026-01-11,Awarded
+PR-2025-00216,Procurement & Logistics,Hardware Procurement,25790000.0,2025-10-29,Awarded
+PR-2025-00217,Lending Operations,Office Consumables,25730000.0,2025-01-27,Awarded
+PR-2026-00218,Risk & Compliance,Hardware Procurement,18870000.0,2026-07-09,Bidding
+PR-2024-00219,IT & Infrastructure,Office Consumables,10840000.0,2024-12-22,Bidding
+PR-2025-00220,Risk & Compliance,Hardware Procurement,42450000.0,2025-01-20,Awarded
+PR-2025-00221,Lending Operations,Media & PR,25290000.0,2025-04-02,Bidding
+PR-2026-00222,Risk & Compliance,Office Consumables,10170000.0,2026-06-11,Bidding
+PR-2026-00223,Executive Admin,Media & PR,10570000.0,2026-04-16,Awarded
+PR-2025-00224,Risk & Compliance,Media & PR,4460000.0,2025-06-24,Awarded
+PR-2024-00225,Procurement & Logistics,Media & PR,35220000.0,2024-12-15,Awarded
+PR-2026-00226,Executive Admin,Office Consumables,37680000.0,2026-03-16,Awarded
+PR-2026-00227,Procurement & Logistics,Software Licenses,31680000.0,2026-02-16,Awarded
+PR-2025-00228,Lending Operations,Office Consumables,29180000.0,2025-12-14,Awarded
+PR-2025-00229,Lending Operations,Office Consumables,6580000.0,2025-10-18,Awarded
+PR-2026-00230,Risk & Compliance,Office Consumables,9630000.0,2026-05-09,Awarded
+PR-2024-00231,Lending Operations,Media & PR,11720000.0,2024-09-08,Awarded
+PR-2024-00232,Procurement & Logistics,Hardware Procurement,18730000.0,2024-10-03,Bidding
+PR-2024-00233,Procurement & Logistics,Software Licenses,23090000.0,2024-09-19,Awarded
+PR-2025-00234,IT & Infrastructure,Hardware Procurement,6590000.0,2025-05-30,Awarded
+PR-2025-00235,Lending Operations,Media & PR,27530000.0,2025-01-19,Awarded
+PR-2026-00236,Procurement & Logistics,Media & PR,1790000.0,2026-06-26,Awarded
+PR-2025-00237,Executive Admin,Field Survey Services,24750000.0,2025-09-08,Awarded
+PR-2026-00238,IT & Infrastructure,Hardware Procurement,25060000.0,2026-02-04,Awarded
+PR-2026-00239,Procurement & Logistics,Hardware Procurement,34510000.0,2026-04-12,Awarded
+PR-2025-00240,Procurement & Logistics,Office Consumables,19880000.0,2025-05-07,Awarded
+PR-2024-00241,Lending Operations,Hardware Procurement,21650000.0,2024-12-31,Awarded
+PR-2025-00242,Lending Operations,Hardware Procurement,23820000.0,2025-09-06,Awarded
+PR-2025-00243,Risk & Compliance,Hardware Procurement,5170000.0,2025-03-07,Awarded
+PR-2025-00244,Risk & Compliance,Hardware Procurement,37190000.0,2025-11-05,Awarded
+PR-2024-00245,Executive Admin,Media & PR,14250000.0,2024-12-14,Awarded
+PR-2026-00246,Risk & Compliance,Field Survey Services,6800000.0,2026-01-17,Awarded
+PR-2024-00247,Executive Admin,Software Licenses,25500000.0,2024-09-09,Awarded
+PR-2025-00248,Risk & Compliance,Media & PR,13020000.0,2025-12-20,Bidding
+PR-2026-00249,IT & Infrastructure,Office Consumables,35510000.0,2026-01-15,Bidding
+PR-2026-00250,IT & Infrastructure,Office Consumables,23460000.0,2026-05-19,Awarded
+PR-2026-00251,IT & Infrastructure,Office Consumables,10220000.0,2026-05-03,Bidding
+PR-2025-00252,Risk & Compliance,Hardware Procurement,34730000.0,2025-12-14,Awarded
+PR-2025-00253,IT & Infrastructure,Field Survey Services,35630000.0,2025-12-28,Awarded
+PR-2026-00254,Lending Operations,Field Survey Services,23170000.0,2026-05-30,Awarded
+PR-2026-00255,Lending Operations,Hardware Procurement,5630000.0,2026-04-25,Cancelled
+PR-2025-00256,Executive Admin,Hardware Procurement,11170000.0,2025-04-23,Awarded
+PR-2025-00257,Executive Admin,Media & PR,27200000.0,2025-02-19,Awarded
+PR-2024-00258,IT & Infrastructure,Media & PR,33960000.0,2024-11-25,Awarded
+PR-2026-00259,Lending Operations,Field Survey Services,20190000.0,2026-02-21,Awarded
+PR-2026-00260,Procurement & Logistics,Hardware Procurement,42440000.0,2026-07-11,Bidding
+PR-2026-00261,Risk & Compliance,Software Licenses,28320000.0,2026-04-11,Awarded
+PR-2025-00262,Risk & Compliance,Hardware Procurement,32850000.0,2025-12-18,Bidding
+PR-2025-00263,Lending Operations,Hardware Procurement,13940000.0,2025-12-28,Bidding
+PR-2025-00264,Risk & Compliance,Software Licenses,14610000.0,2025-08-20,Awarded
+PR-2024-00265,Executive Admin,Field Survey Services,31310000.0,2024-12-21,Awarded
+PR-2026-00266,Executive Admin,Media & PR,22470000.0,2026-04-09,Awarded
+PR-2025-00267,Procurement & Logistics,Field Survey Services,43960000.0,2025-09-05,Awarded
+PR-2025-00268,Lending Operations,Media & PR,3520000.0,2025-11-04,Awarded
+PR-2025-00269,Executive Admin,Media & PR,21300000.0,2025-12-28,Bidding
+PR-2026-00270,IT & Infrastructure,Software Licenses,42890000.0,2026-08-02,Awarded
+PR-2024-00271,Executive Admin,Field Survey Services,35100000.0,2024-12-18,Awarded
+PR-2026-00272,IT & Infrastructure,Field Survey Services,9690000.0,2026-05-09,Awarded
+PR-2025-00273,Risk & Compliance,Hardware Procurement,11090000.0,2025-10-11,Awarded
+PR-2025-00274,Risk & Compliance,Media & PR,33820000.0,2025-12-26,Awarded
+PR-2026-00275,Executive Admin,Software Licenses,31470000.0,2026-05-24,Awarded
+PR-2025-00276,Risk & Compliance,Software Licenses,23960000.0,2025-05-15,Awarded
+PR-2025-00277,Procurement & Logistics,Hardware Procurement,13670000.0,2025-07-29,Awarded
+PR-2025-00278,Procurement & Logistics,Media & PR,9930000.0,2025-08-31,Bidding
+PR-2025-00279,Executive Admin,Hardware Procurement,32620000.0,2025-02-17,Awarded
+PR-2024-00280,Procurement & Logistics,Field Survey Services,32800000.0,2024-11-25,Bidding
+PR-2026-00281,IT & Infrastructure,Office Consumables,37280000.0,2026-06-10,Awarded
+PR-2024-00282,IT & Infrastructure,Office Consumables,16270000.0,2024-09-29,Bidding
+PR-2026-00283,Risk & Compliance,Hardware Procurement,29340000.0,2026-02-21,Awarded
+PR-2025-00284,IT & Infrastructure,Media & PR,31420000.0,2025-03-02,Awarded
+PR-2025-00285,Lending Operations,Media & PR,27380000.0,2025-09-04,Bidding
+PR-2026-00286,Risk & Compliance,Media & PR,15590000.0,2026-03-02,Awarded
+PR-2024-00287,Executive Admin,Office Consumables,11740000.0,2024-09-05,Awarded
+PR-2024-00288,Lending Operations,Software Licenses,17910000.0,2024-09-30,Awarded
+PR-2025-00289,Executive Admin,Hardware Procurement,33560000.0,2025-10-15,Awarded
+PR-2026-00290,Executive Admin,Software Licenses,17970000.0,2026-06-30,Awarded
+PR-2025-00291,Executive Admin,Office Consumables,3890000.0,2025-11-17,Bidding
+PR-2025-00292,Procurement & Logistics,Media & PR,43720000.0,2025-02-16,Bidding
+PR-2025-00293,Procurement & Logistics,Office Consumables,30530000.0,2025-10-30,Cancelled
+PR-2024-00294,Executive Admin,Software Licenses,2040000.0,2024-12-29,Bidding
+PR-2025-00295,Lending Operations,Hardware Procurement,5160000.0,2025-09-12,Awarded
+PR-2025-00296,Lending Operations,Hardware Procurement,9900000.0,2025-06-16,Awarded
+PR-2025-00297,Risk & Compliance,Software Licenses,2970000.0,2025-07-22,Awarded
+PR-2025-00298,Lending Operations,Hardware Procurement,8170000.0,2025-09-07,Bidding
+PR-2025-00299,IT & Infrastructure,Software Licenses,38920000.0,2025-06-27,Bidding
+PR-2025-00300,Lending Operations,Hardware Procurement,28260000.0,2025-09-06,Awarded
+PR-2024-00301,Procurement & Logistics,Office Consumables,34040000.0,2024-11-28,Awarded
+PR-2024-00302,Lending Operations,Field Survey Services,21880000.0,2024-09-27,Awarded
+PR-2024-00303,Executive Admin,Software Licenses,22780000.0,2024-11-26,Awarded
+PR-2026-00304,Lending Operations,Software Licenses,5810000.0,2026-01-06,Awarded
+PR-2025-00305,Risk & Compliance,Field Survey Services,23190000.0,2025-11-04,Awarded
+PR-2025-00306,IT & Infrastructure,Hardware Procurement,34040000.0,2025-12-24,Bidding
+PR-2024-00307,Risk & Compliance,Hardware Procurement,23850000.0,2024-08-07,Awarded
+PR-2025-00308,IT & Infrastructure,Software Licenses,30810000.0,2025-08-25,Awarded
+PR-2024-00309,Procurement & Logistics,Software Licenses,9640000.0,2024-09-01,Awarded
+PR-2024-00310,Executive Admin,Hardware Procurement,6700000.0,2024-11-28,Awarded
+PR-2025-00311,Risk & Compliance,Software Licenses,15100000.0,2025-12-10,Bidding
+PR-2026-00312,Risk & Compliance,Office Consumables,34050000.0,2026-01-20,Bidding
+PR-2024-00313,Risk & Compliance,Hardware Procurement,37790000.0,2024-08-20,Awarded
+PR-2026-00314,Lending Operations,Hardware Procurement,34580000.0,2026-04-09,Cancelled
+PR-2025-00315,Lending Operations,Hardware Procurement,29520000.0,2025-09-07,Awarded
+PR-2026-00316,Procurement & Logistics,Office Consumables,21650000.0,2026-03-31,Awarded
+PR-2026-00317,Procurement & Logistics,Media & PR,29840000.0,2026-05-05,Awarded
+PR-2026-00318,Procurement & Logistics,Office Consumables,35520000.0,2026-07-07,Awarded
+PR-2025-00319,Procurement & Logistics,Office Consumables,6240000.0,2025-08-04,Awarded
+PR-2026-00320,Procurement & Logistics,Software Licenses,36330000.0,2026-07-11,Awarded
+PR-2024-00321,Procurement & Logistics,Field Survey Services,2500000.0,2024-09-04,Awarded
+PR-2026-00322,Executive Admin,Office Consumables,6600000.0,2026-01-19,Awarded
+PR-2025-00323,Risk & Compliance,Field Survey Services,19860000.0,2025-05-14,Cancelled
+PR-2026-00324,Risk & Compliance,Office Consumables,38220000.0,2026-07-26,Awarded
+PR-2026-00325,Procurement & Logistics,Media & PR,29430000.0,2026-02-16,Awarded
+PR-2025-00326,Executive Admin,Field Survey Services,41500000.0,2025-03-12,Awarded
+PR-2024-00327,Procurement & Logistics,Field Survey Services,18880000.0,2024-11-10,Awarded
+PR-2025-00328,Risk & Compliance,Hardware Procurement,27210000.0,2025-08-06,Awarded
+PR-2025-00329,Executive Admin,Office Consumables,14510000.0,2025-03-02,Awarded
+PR-2026-00330,Risk & Compliance,Office Consumables,19820000.0,2026-03-26,Awarded
+PR-2026-00331,Lending Operations,Software Licenses,13770000.0,2026-06-20,Awarded
+PR-2025-00332,Lending Operations,Media & PR,6360000.0,2025-12-01,Awarded
+PR-2026-00333,Risk & Compliance,Field Survey Services,670000.0,2026-04-17,Awarded
+PR-2024-00334,Executive Admin,Office Consumables,41900000.0,2024-11-08,Awarded
+PR-2025-00335,Lending Operations,Office Consumables,36390000.0,2025-02-09,Awarded
+PR-2025-00336,Procurement & Logistics,Field Survey Services,26280000.0,2025-12-12,Bidding
+PR-2024-00337,Procurement & Logistics,Office Consumables,35860000.0,2024-10-20,Awarded
+PR-2024-00338,Lending Operations,Field Survey Services,12450000.0,2024-09-23,Cancelled
+PR-2024-00339,Lending Operations,Field Survey Services,1270000.0,2024-09-01,Awarded
+PR-2026-00340,Risk & Compliance,Media & PR,27100000.0,2026-03-20,Awarded
+PR-2024-00341,Risk & Compliance,Field Survey Services,39870000.0,2024-09-25,Awarded
+PR-2025-00342,IT & Infrastructure,Field Survey Services,30930000.0,2025-10-06,Bidding
+PR-2024-00343,Executive Admin,Media & PR,29170000.0,2024-09-05,Awarded
+PR-2025-00344,Executive Admin,Hardware Procurement,18540000.0,2025-06-20,Awarded
+PR-2025-00345,Risk & Compliance,Hardware Procurement,28540000.0,2025-07-11,Bidding
+PR-2025-00346,Executive Admin,Field Survey Services,10430000.0,2025-04-29,Awarded
+PR-2024-00347,IT & Infrastructure,Software Licenses,22160000.0,2024-08-10,Awarded
+PR-2025-00348,Procurement & Logistics,Hardware Procurement,2470000.0,2025-03-09,Awarded
+PR-2025-00349,Lending Operations,Media & PR,13970000.0,2025-04-02,Awarded
+PR-2024-00350,Risk & Compliance,Hardware Procurement,44840000.0,2024-12-02,Bidding
+PR-2025-00351,IT & Infrastructure,Office Consumables,11410000.0,2025-02-06,Awarded
+PR-2025-00352,IT & Infrastructure,Media & PR,29200000.0,2025-10-23,Awarded
+PR-2026-00353,Executive Admin,Office Consumables,7570000.0,2026-01-07,Awarded
+PR-2025-00354,Executive Admin,Hardware Procurement,32600000.0,2025-07-08,Awarded
+PR-2025-00355,IT & Infrastructure,Field Survey Services,21410000.0,2025-06-06,Awarded
+PR-2026-00356,Lending Operations,Software Licenses,11070000.0,2026-03-17,Bidding
+PR-2024-00357,Lending Operations,Media & PR,21820000.0,2024-09-02,Awarded
+PR-2026-00358,Lending Operations,Hardware Procurement,41320000.0,2026-06-06,Bidding
+PR-2024-00359,IT & Infrastructure,Field Survey Services,27530000.0,2024-12-05,Awarded
+PR-2025-00360,IT & Infrastructure,Field Survey Services,16610000.0,2025-01-29,Bidding
+PR-2024-00361,Risk & Compliance,Software Licenses,41420000.0,2024-10-17,Cancelled
+PR-2024-00362,Risk & Compliance,Software Licenses,29100000.0,2024-09-03,Awarded
+PR-2026-00363,Risk & Compliance,Media & PR,28510000.0,2026-05-31,Awarded
+PR-2024-00364,Risk & Compliance,Software Licenses,28560000.0,2024-12-16,Awarded
+PR-2025-00365,Lending Operations,Hardware Procurement,16440000.0,2025-10-30,Awarded
+PR-2025-00366,IT & Infrastructure,Field Survey Services,26190000.0,2025-09-07,Bidding
+PR-2026-00367,Lending Operations,Hardware Procurement,35380000.0,2026-03-18,Awarded
+PR-2024-00368,Risk & Compliance,Software Licenses,37770000.0,2024-11-08,Awarded
+PR-2025-00369,Risk & Compliance,Media & PR,26380000.0,2025-11-01,Bidding
+PR-2024-00370,Procurement & Logistics,Field Survey Services,42580000.0,2024-10-30,Awarded
+PR-2025-00371,Risk & Compliance,Field Survey Services,11730000.0,2025-11-14,Bidding
+PR-2025-00372,Procurement & Logistics,Field Survey Services,32550000.0,2025-09-26,Bidding
+PR-2026-00373,IT & Infrastructure,Software Licenses,12240000.0,2026-03-01,Awarded
+PR-2024-00374,Lending Operations,Software Licenses,18200000.0,2024-12-02,Awarded
+PR-2026-00375,IT & Infrastructure,Hardware Procurement,5930000.0,2026-02-09,Bidding
+PR-2026-00376,Procurement & Logistics,Field Survey Services,12890000.0,2026-07-17,Awarded
+PR-2025-00377,IT & Infrastructure,Media & PR,22560000.0,2025-03-16,Awarded
+PR-2024-00378,Lending Operations,Hardware Procurement,16720000.0,2024-08-15,Awarded
+PR-2026-00379,Executive Admin,Software Licenses,23430000.0,2026-05-10,Cancelled
+PR-2025-00380,Risk & Compliance,Software Licenses,6260000.0,2025-05-29,Awarded
+PR-2025-00381,IT & Infrastructure,Office Consumables,44270000.0,2025-01-22,Awarded
+PR-2026-00382,Lending Operations,Hardware Procurement,37400000.0,2026-03-01,Awarded
+PR-2025-00383,Executive Admin,Office Consumables,35880000.0,2025-09-16,Awarded
+PR-2025-00384,Risk & Compliance,Media & PR,34420000.0,2025-12-18,Awarded
+PR-2025-00385,IT & Infrastructure,Hardware Procurement,33460000.0,2025-02-28,Bidding
+PR-2025-00386,Risk & Compliance,Field Survey Services,44530000.0,2025-07-11,Awarded
+PR-2024-00387,Executive Admin,Software Licenses,38610000.0,2024-08-13,Awarded
+PR-2024-00388,Procurement & Logistics,Hardware Procurement,16620000.0,2024-11-13,Awarded
+PR-2026-00389,Lending Operations,Office Consumables,6440000.0,2026-05-10,Awarded
+PR-2024-00390,Risk & Compliance,Media & PR,21160000.0,2024-09-27,Awarded
+PR-2026-00391,Executive Admin,Field Survey Services,43790000.0,2026-02-19,Awarded
+PR-2024-00392,IT & Infrastructure,Office Consumables,8200000.0,2024-10-07,Bidding
+PR-2025-00393,Lending Operations,Software Licenses,21160000.0,2025-05-29,Awarded
+PR-2025-00394,Lending Operations,Software Licenses,3700000.0,2025-08-15,Bidding
+PR-2025-00395,Risk & Compliance,Software Licenses,33770000.0,2025-01-31,Awarded
+PR-2025-00396,Lending Operations,Software Licenses,15690000.0,2025-11-28,Awarded
+PR-2025-00397,Executive Admin,Media & PR,2340000.0,2025-09-12,Awarded
+PR-2024-00398,Executive Admin,Hardware Procurement,4180000.0,2024-08-19,Bidding
+PR-2024-00399,IT & Infrastructure,Office Consumables,42350000.0,2024-08-23,Bidding
+PR-2024-00400,Lending Operations,Hardware Procurement,4050000.0,2024-10-29,Bidding
+PR-2026-00401,Risk & Compliance,Media & PR,15740000.0,2026-02-20,Bidding
+PR-2025-00402,Executive Admin,Media & PR,43140000.0,2025-08-16,Awarded
+PR-2026-00403,IT & Infrastructure,Media & PR,44080000.0,2026-04-27,Bidding
+PR-2025-00404,Lending Operations,Field Survey Services,2630000.0,2025-02-01,Awarded
+PR-2026-00405,Lending Operations,Field Survey Services,28490000.0,2026-03-30,Awarded
+PR-2025-00406,Risk & Compliance,Hardware Procurement,23090000.0,2025-11-22,Awarded
+PR-2024-00407,Executive Admin,Hardware Procurement,42650000.0,2024-09-06,Awarded
+PR-2025-00408,IT & Infrastructure,Media & PR,29540000.0,2025-03-22,Awarded
+PR-2024-00409,Risk & Compliance,Hardware Procurement,24760000.0,2024-09-30,Awarded
+PR-2026-00410,Procurement & Logistics,Office Consumables,22390000.0,2026-07-11,Bidding
+PR-2024-00411,Procurement & Logistics,Software Licenses,33450000.0,2024-08-31,Awarded
+PR-2025-00412,Lending Operations,Office Consumables,21510000.0,2025-09-20,Awarded
+PR-2025-00413,Executive Admin,Field Survey Services,40560000.0,2025-07-15,Awarded
+PR-2024-00414,Executive Admin,Hardware Procurement,1590000.0,2024-09-09,Awarded
+PR-2024-00415,Risk & Compliance,Software Licenses,31590000.0,2024-12-14,Bidding
+PR-2025-00416,IT & Infrastructure,Office Consumables,29250000.0,2025-08-29,Bidding
+PR-2025-00417,Procurement & Logistics,Software Licenses,12990000.0,2025-04-07,Awarded
+PR-2025-00418,Executive Admin,Media & PR,39290000.0,2025-09-18,Awarded
+PR-2025-00419,IT & Infrastructure,Field Survey Services,11710000.0,2025-11-09,Awarded
+PR-2025-00420,Lending Operations,Hardware Procurement,5910000.0,2025-07-24,Awarded
+PR-2025-00421,Lending Operations,Office Consumables,26750000.0,2025-08-30,Awarded
+PR-2025-00422,Risk & Compliance,Office Consumables,39520000.0,2025-01-01,Bidding
+PR-2026-00423,Risk & Compliance,Office Consumables,41280000.0,2026-02-13,Awarded
+PR-2025-00424,Risk & Compliance,Hardware Procurement,21370000.0,2025-07-08,Awarded
+PR-2024-00425,Lending Operations,Office Consumables,10150000.0,2024-10-24,Awarded
+PR-2025-00426,IT & Infrastructure,Office Consumables,36050000.0,2025-07-11,Bidding
+PR-2026-00427,Executive Admin,Field Survey Services,33150000.0,2026-04-24,Awarded
+PR-2025-00428,Executive Admin,Media & PR,24490000.0,2025-08-29,Awarded
+PR-2025-00429,Risk & Compliance,Hardware Procurement,4460000.0,2025-12-31,Bidding
+PR-2026-00430,Lending Operations,Field Survey Services,9800000.0,2026-02-18,Awarded
+PR-2025-00431,Lending Operations,Field Survey Services,8850000.0,2025-07-24,Awarded
+PR-2024-00432,Procurement & Logistics,Office Consumables,36960000.0,2024-09-01,Awarded
+PR-2024-00433,IT & Infrastructure,Software Licenses,15210000.0,2024-10-25,Awarded
+PR-2024-00434,Lending Operations,Hardware Procurement,19910000.0,2024-11-16,Bidding
+PR-2026-00435,Risk & Compliance,Media & PR,23500000.0,2026-02-26,Cancelled
+PR-2025-00436,Procurement & Logistics,Software Licenses,43680000.0,2025-09-26,Awarded
+PR-2025-00437,Executive Admin,Hardware Procurement,40970000.0,2025-07-27,Awarded
+PR-2025-00438,Procurement & Logistics,Software Licenses,1350000.0,2025-09-17,Bidding
+PR-2026-00439,Risk & Compliance,Software Licenses,35060000.0,2026-06-06,Awarded
+PR-2026-00440,Procurement & Logistics,Hardware Procurement,3130000.0,2026-07-10,Awarded
+PR-2026-00441,Executive Admin,Hardware Procurement,38870000.0,2026-01-11,Awarded
+PR-2025-00442,Lending Operations,Software Licenses,33090000.0,2025-09-15,Bidding
+PR-2026-00443,IT & Infrastructure,Office Consumables,5640000.0,2026-07-21,Awarded
+PR-2025-00444,Lending Operations,Field Survey Services,16370000.0,2025-11-19,Bidding
+PR-2025-00445,Procurement & Logistics,Media & PR,17000000.0,2025-01-23,Awarded
+PR-2025-00446,Procurement & Logistics,Software Licenses,1540000.0,2025-12-19,Bidding
+PR-2025-00447,Procurement & Logistics,Media & PR,27640000.0,2025-06-07,Bidding
+PR-2025-00448,Procurement & Logistics,Media & PR,31880000.0,2025-01-13,Awarded
+PR-2025-00449,Lending Operations,Software Licenses,40250000.0,2025-09-19,Awarded
+PR-2025-00450,Procurement & Logistics,Software Licenses,28880000.0,2025-01-20,Awarded
+PR-2025-00451,IT & Infrastructure,Software Licenses,34220000.0,2025-04-22,Awarded
+PR-2024-00452,Risk & Compliance,Office Consumables,1530000.0,2024-11-20,Awarded
+PR-2024-00453,Risk & Compliance,Media & PR,41460000.0,2024-11-08,Awarded
+PR-2025-00454,Risk & Compliance,Hardware Procurement,26890000.0,2025-07-26,Awarded
+PR-2025-00455,IT & Infrastructure,Office Consumables,26040000.0,2025-04-23,Awarded
+PR-2026-00456,Executive Admin,Office Consumables,22920000.0,2026-02-12,Awarded
+PR-2025-00457,Executive Admin,Office Consumables,10430000.0,2025-05-09,Awarded
+PR-2025-00458,Risk & Compliance,Software Licenses,25790000.0,2025-05-16,Awarded
+PR-2024-00459,Lending Operations,Media & PR,6510000.0,2024-12-25,Awarded
+PR-2025-00460,Lending Operations,Hardware Procurement,28160000.0,2025-01-08,Awarded
+PR-2025-00461,IT & Infrastructure,Software Licenses,5050000.0,2025-10-10,Awarded
+PR-2026-00462,Procurement & Logistics,Media & PR,38460000.0,2026-03-27,Bidding
+PR-2025-00463,IT & Infrastructure,Media & PR,29020000.0,2025-12-01,Bidding
+PR-2026-00464,IT & Infrastructure,Field Survey Services,27150000.0,2026-02-13,Awarded
+PR-2024-00465,Risk & Compliance,Office Consumables,13100000.0,2024-11-22,Awarded
+PR-2026-00466,IT & Infrastructure,Field Survey Services,24300000.0,2026-03-04,Awarded
+PR-2025-00467,Lending Operations,Field Survey Services,41130000.0,2025-07-08,Awarded
+PR-2025-00468,Procurement & Logistics,Media & PR,29250000.0,2025-01-08,Awarded
+PR-2025-00469,Executive Admin,Hardware Procurement,21580000.0,2025-11-15,Awarded
+PR-2024-00470,Lending Operations,Software Licenses,6500000.0,2024-09-08,Awarded
+PR-2024-00471,Executive Admin,Media & PR,6710000.0,2024-12-10,Bidding
+PR-2025-00472,Lending Operations,Office Consumables,13510000.0,2025-12-18,Awarded
+PR-2025-00473,IT & Infrastructure,Software Licenses,8460000.0,2025-02-11,Awarded
+PR-2026-00474,IT & Infrastructure,Hardware Procurement,41480000.0,2026-07-04,Awarded
+PR-2025-00475,Procurement & Logistics,Media & PR,13390000.0,2025-08-19,Awarded
+PR-2025-00476,Lending Operations,Office Consumables,23950000.0,2025-09-17,Awarded
+PR-2025-00477,Risk & Compliance,Software Licenses,4620000.0,2025-04-08,Bidding
+PR-2025-00478,Risk & Compliance,Software Licenses,43350000.0,2025-07-06,Awarded
+PR-2025-00479,Executive Admin,Media & PR,26440000.0,2025-12-16,Awarded
+PR-2024-00480,IT & Infrastructure,Software Licenses,12730000.0,2024-08-30,Cancelled
+PR-2024-00481,IT & Infrastructure,Media & PR,41830000.0,2024-10-16,Awarded
+PR-2025-00482,Executive Admin,Field Survey Services,14370000.0,2025-12-13,Awarded
+PR-2026-00483,Procurement & Logistics,Media & PR,15490000.0,2026-06-07,Bidding
+PR-2025-00484,Lending Operations,Media & PR,11300000.0,2025-08-17,Awarded
+PR-2024-00485,Risk & Compliance,Field Survey Services,16120000.0,2024-11-18,Awarded
+PR-2025-00486,Risk & Compliance,Media & PR,33000000.0,2025-06-03,Awarded
+PR-2024-00487,Risk & Compliance,Software Licenses,4500000.0,2024-09-17,Bidding
+PR-2025-00488,Risk & Compliance,Software Licenses,17090000.0,2025-08-06,Cancelled
+PR-2024-00489,Procurement & Logistics,Office Consumables,2900000.0,2024-10-02,Awarded
+PR-2025-00490,Procurement & Logistics,Office Consumables,7230000.0,2025-05-09,Awarded
+PR-2024-00491,Risk & Compliance,Media & PR,18860000.0,2024-08-26,Awarded
+PR-2025-00492,Risk & Compliance,Office Consumables,34410000.0,2025-06-04,Awarded
+PR-2026-00493,Lending Operations,Hardware Procurement,37760000.0,2026-03-13,Awarded
+PR-2025-00494,Procurement & Logistics,Office Consumables,8800000.0,2025-05-12,Awarded
+PR-2025-00495,Executive Admin,Office Consumables,27790000.0,2025-03-05,Awarded
+PR-2026-00496,Executive Admin,Software Licenses,1070000.0,2026-07-03,Awarded
+PR-2024-00497,Executive Admin,Media & PR,29560000.0,2024-12-10,Awarded
+PR-2025-00498,Risk & Compliance,Field Survey Services,25990000.0,2025-06-12,Awarded
+PR-2025-00499,Procurement & Logistics,Hardware Procurement,18030000.0,2025-07-23,Awarded
+PR-2024-00500,Lending Operations,Field Survey Services,40580000.0,2024-09-16,Bidding
+PR-2025-00501,Executive Admin,Media & PR,41720000.0,2025-09-04,Bidding
+PR-2025-00502,Executive Admin,Hardware Procurement,5250000.0,2025-07-28,Awarded
+PR-2024-00503,IT & Infrastructure,Office Consumables,39620000.0,2024-08-23,Awarded
+PR-2026-00504,Lending Operations,Office Consumables,36490000.0,2026-07-08,Awarded
+PR-2025-00505,Executive Admin,Hardware Procurement,11460000.0,2025-08-13,Bidding
+PR-2026-00506,Procurement & Logistics,Media & PR,23890000.0,2026-04-18,Awarded
+PR-2024-00507,IT & Infrastructure,Hardware Procurement,35020000.0,2024-08-17,Awarded
+PR-2024-00508,Procurement & Logistics,Office Consumables,43620000.0,2024-12-30,Awarded
+PR-2024-00509,Lending Operations,Media & PR,6070000.0,2024-12-04,Awarded
+PR-2025-00510,Procurement & Logistics,Hardware Procurement,32980000.0,2025-11-19,Awarded
+PR-2025-00511,Lending Operations,Hardware Procurement,5410000.0,2025-01-25,Bidding
+PR-2024-00512,IT & Infrastructure,Software Licenses,22930000.0,2024-09-12,Awarded
+PR-2024-00513,IT & Infrastructure,Field Survey Services,15000000.0,2024-11-19,Bidding
+PR-2026-00514,IT & Infrastructure,Hardware Procurement,11640000.0,2026-02-25,Awarded
+PR-2026-00515,Lending Operations,Office Consumables,29300000.0,2026-06-21,Awarded
+PR-2025-00516,IT & Infrastructure,Software Licenses,10720000.0,2025-03-29,Awarded
+PR-2025-00517,IT & Infrastructure,Media & PR,25200000.0,2025-11-24,Awarded
+PR-2026-00518,Procurement & Logistics,Field Survey Services,23380000.0,2026-04-12,Awarded
+PR-2025-00519,Procurement & Logistics,Media & PR,20830000.0,2025-06-05,Awarded
+PR-2026-00520,IT & Infrastructure,Hardware Procurement,36330000.0,2026-02-20,Awarded
+PR-2025-00521,Executive Admin,Field Survey Services,8900000.0,2025-04-29,Awarded
+PR-2026-00522,Procurement & Logistics,Software Licenses,940000.0,2026-02-14,Awarded
+PR-2025-00523,Executive Admin,Hardware Procurement,5210000.0,2025-06-17,Awarded
+PR-2025-00524,Executive Admin,Hardware Procurement,38820000.0,2025-12-01,Awarded
+PR-2024-00525,Executive Admin,Hardware Procurement,13970000.0,2024-12-09,Awarded
+PR-2026-00526,Lending Operations,Media & PR,8270000.0,2026-05-26,Awarded
+PR-2024-00527,Procurement & Logistics,Media & PR,18760000.0,2024-08-21,Awarded
+PR-2026-00528,IT & Infrastructure,Office Consumables,37720000.0,2026-05-01,Awarded
+PR-2024-00529,Executive Admin,Office Consumables,25380000.0,2024-11-03,Awarded
+PR-2025-00530,Lending Operations,Hardware Procurement,21650000.0,2025-03-02,Awarded
+PR-2025-00531,Procurement & Logistics,Office Consumables,13100000.0,2025-02-18,Awarded
+PR-2025-00532,Procurement & Logistics,Office Consumables,6770000.0,2025-03-26,Awarded
+PR-2024-00533,Procurement & Logistics,Field Survey Services,32380000.0,2024-11-09,Awarded
+PR-2026-00534,Risk & Compliance,Office Consumables,41750000.0,2026-01-30,Awarded
+PR-2025-00535,Executive Admin,Hardware Procurement,2140000.0,2025-04-07,Awarded
+PR-2026-00536,Executive Admin,Media & PR,16730000.0,2026-06-02,Awarded
+PR-2026-00537,Procurement & Logistics,Hardware Procurement,43140000.0,2026-05-29,Bidding
+PR-2025-00538,IT & Infrastructure,Office Consumables,39420000.0,2025-01-10,Awarded
+PR-2024-00539,Procurement & Logistics,Media & PR,8980000.0,2024-09-12,Awarded
+PR-2025-00540,Risk & Compliance,Hardware Procurement,25870000.0,2025-10-23,Awarded
+PR-2024-00541,IT & Infrastructure,Office Consumables,34720000.0,2024-12-26,Cancelled
+PR-2026-00542,Executive Admin,Hardware Procurement,30380000.0,2026-05-31,Awarded
+PR-2025-00543,IT & Infrastructure,Field Survey Services,22010000.0,2025-03-19,Awarded
+PR-2026-00544,Risk & Compliance,Software Licenses,22180000.0,2026-07-11,Awarded
+PR-2025-00545,Risk & Compliance,Office Consumables,41340000.0,2025-10-28,Awarded
+PR-2025-00546,Procurement & Logistics,Software Licenses,10550000.0,2025-08-03,Awarded
+PR-2024-00547,Executive Admin,Hardware Procurement,13170000.0,2024-09-29,Awarded
+PR-2025-00548,Risk & Compliance,Field Survey Services,9320000.0,2025-01-11,Awarded
+PR-2024-00549,Risk & Compliance,Media & PR,15170000.0,2024-10-16,Bidding
+PR-2025-00550,Procurement & Logistics,Media & PR,2690000.0,2025-06-04,Bidding
+PR-2025-00551,IT & Infrastructure,Field Survey Services,32670000.0,2025-07-26,Awarded
+PR-2024-00552,Risk & Compliance,Hardware Procurement,39830000.0,2024-09-14,Awarded
+PR-2024-00553,Executive Admin,Software Licenses,28700000.0,2024-09-06,Awarded
+PR-2025-00554,Procurement & Logistics,Media & PR,18050000.0,2025-05-25,Awarded
+PR-2024-00555,IT & Infrastructure,Office Consumables,41460000.0,2024-10-01,Bidding
+PR-2024-00556,Executive Admin,Hardware Procurement,27860000.0,2024-12-29,Awarded
+PR-2026-00557,Procurement & Logistics,Office Consumables,9770000.0,2026-07-01,Awarded
+PR-2024-00558,Risk & Compliance,Field Survey Services,20010000.0,2024-10-23,Bidding
+PR-2025-00559,Executive Admin,Hardware Procurement,6540000.0,2025-06-09,Awarded
+PR-2026-00560,IT & Infrastructure,Media & PR,2040000.0,2026-02-07,Awarded
+PR-2025-00561,Risk & Compliance,Field Survey Services,25420000.0,2025-12-07,Awarded
+PR-2025-00562,Executive Admin,Media & PR,31680000.0,2025-02-02,Cancelled
+PR-2025-00563,Executive Admin,Field Survey Services,36810000.0,2025-01-28,Awarded
+PR-2026-00564,Procurement & Logistics,Software Licenses,13240000.0,2026-05-14,Awarded
+PR-2025-00565,Risk & Compliance,Hardware Procurement,8270000.0,2025-12-24,Bidding
+PR-2026-00566,Risk & Compliance,Software Licenses,41870000.0,2026-04-09,Awarded
+PR-2025-00567,Lending Operations,Hardware Procurement,21850000.0,2025-01-25,Awarded
+PR-2025-00568,Executive Admin,Software Licenses,10760000.0,2025-05-20,Awarded
+PR-2025-00569,Risk & Compliance,Office Consumables,9400000.0,2025-03-09,Awarded
+PR-2024-00570,Procurement & Logistics,Field Survey Services,6050000.0,2024-09-12,Awarded
+PR-2025-00571,IT & Infrastructure,Hardware Procurement,37870000.0,2025-08-24,Awarded
+PR-2025-00572,Lending Operations,Hardware Procurement,29480000.0,2025-07-18,Awarded
+PR-2026-00573,Risk & Compliance,Office Consumables,10400000.0,2026-07-09,Awarded
+PR-2024-00574,Risk & Compliance,Hardware Procurement,27080000.0,2024-08-05,Awarded
+PR-2026-00575,IT & Infrastructure,Office Consumables,20420000.0,2026-03-08,Bidding
+PR-2025-00576,Risk & Compliance,Software Licenses,25700000.0,2025-11-02,Bidding
+PR-2024-00577,Risk & Compliance,Office Consumables,22710000.0,2024-09-22,Bidding
+PR-2024-00578,Executive Admin,Hardware Procurement,42020000.0,2024-11-14,Bidding
+PR-2025-00579,IT & Infrastructure,Hardware Procurement,44870000.0,2025-07-01,Awarded
+PR-2025-00580,Risk & Compliance,Hardware Procurement,32430000.0,2025-11-15,Awarded
+PR-2025-00581,IT & Infrastructure,Office Consumables,25110000.0,2025-12-02,Awarded
+PR-2025-00582,Lending Operations,Field Survey Services,33890000.0,2025-06-10,Awarded
+PR-2026-00583,IT & Infrastructure,Software Licenses,13120000.0,2026-07-29,Awarded
+PR-2026-00584,IT & Infrastructure,Software Licenses,36450000.0,2026-06-02,Awarded
+PR-2026-00585,Risk & Compliance,Media & PR,32700000.0,2026-06-10,Awarded
+PR-2024-00586,IT & Infrastructure,Office Consumables,4290000.0,2024-08-25,Bidding
+PR-2025-00587,Lending Operations,Media & PR,14280000.0,2025-08-07,Awarded
+PR-2024-00588,IT & Infrastructure,Field Survey Services,5700000.0,2024-11-02,Awarded
+PR-2025-00589,Executive Admin,Field Survey Services,37690000.0,2025-06-26,Awarded
+PR-2024-00590,Risk & Compliance,Media & PR,40380000.0,2024-12-23,Awarded
+PR-2026-00591,Risk & Compliance,Software Licenses,41640000.0,2026-03-03,Awarded
+PR-2025-00592,Lending Operations,Hardware Procurement,1270000.0,2025-04-29,Awarded
+PR-2025-00593,Executive Admin,Office Consumables,14930000.0,2025-03-14,Bidding
+PR-2026-00594,Executive Admin,Hardware Procurement,3710000.0,2026-03-19,Awarded
+PR-2025-00595,Risk & Compliance,Media & PR,1550000.0,2025-08-03,Bidding
+PR-2026-00596,IT & Infrastructure,Media & PR,19270000.0,2026-05-12,Bidding
+PR-2026-00597,Lending Operations,Office Consumables,4930000.0,2026-02-04,Bidding
+PR-2025-00598,Lending Operations,Office Consumables,11630000.0,2025-03-15,Awarded
+PR-2025-00599,Lending Operations,Field Survey Services,10160000.0,2025-04-22,Awarded
+PR-2025-00600,Executive Admin,Media & PR,27530000.0,2025-12-31,Awarded
+PR-2025-00601,Executive Admin,Hardware Procurement,3800000.0,2025-11-01,Awarded
+PR-2025-00602,Risk & Compliance,Office Consumables,26160000.0,2025-05-18,Bidding
+PR-2026-00603,IT & Infrastructure,Software Licenses,23220000.0,2026-03-05,Awarded
+PR-2026-00604,Executive Admin,Software Licenses,36730000.0,2026-05-08,Bidding
+PR-2025-00605,Lending Operations,Software Licenses,10350000.0,2025-05-02,Awarded
+PR-2025-00606,Risk & Compliance,Software Licenses,42170000.0,2025-01-29,Awarded
+PR-2025-00607,Executive Admin,Media & PR,36950000.0,2025-09-29,Awarded
+PR-2025-00608,Executive Admin,Software Licenses,6000000.0,2025-07-31,Awarded
+PR-2024-00609,Executive Admin,Field Survey Services,44850000.0,2024-11-15,Awarded
+PR-2024-00610,Lending Operations,Hardware Procurement,12280000.0,2024-11-24,Bidding
+PR-2026-00611,Risk & Compliance,Hardware Procurement,9710000.0,2026-06-21,Awarded
+PR-2026-00612,IT & Infrastructure,Software Licenses,21670000.0,2026-05-08,Awarded
+PR-2026-00613,Executive Admin,Office Consumables,6350000.0,2026-07-23,Awarded
+PR-2026-00614,Executive Admin,Media & PR,3540000.0,2026-01-28,Bidding
+PR-2026-00615,IT & Infrastructure,Software Licenses,6520000.0,2026-04-26,Awarded
+PR-2024-00616,IT & Infrastructure,Hardware Procurement,7850000.0,2024-12-04,Awarded
+PR-2026-00617,IT & Infrastructure,Field Survey Services,38690000.0,2026-05-21,Awarded
+PR-2026-00618,Procurement & Logistics,Media & PR,18170000.0,2026-06-29,Awarded
+PR-2025-00619,Executive Admin,Office Consumables,23510000.0,2025-01-03,Awarded
+PR-2024-00620,Executive Admin,Hardware Procurement,35140000.0,2024-11-08,Bidding
+PR-2025-00621,Lending Operations,Field Survey Services,37590000.0,2025-01-28,Awarded
+PR-2026-00622,Risk & Compliance,Software Licenses,15660000.0,2026-03-01,Cancelled
+PR-2025-00623,Risk & Compliance,Software Licenses,44110000.0,2025-08-18,Awarded
+PR-2026-00624,Lending Operations,Software Licenses,31150000.0,2026-03-08,Awarded
+PR-2024-00625,Risk & Compliance,Hardware Procurement,9720000.0,2024-11-21,Bidding
+PR-2025-00626,Lending Operations,Media & PR,250000.0,2025-02-07,Bidding
+PR-2024-00627,Risk & Compliance,Software Licenses,4390000.0,2024-10-05,Awarded
+PR-2026-00628,Executive Admin,Field Survey Services,12330000.0,2026-01-19,Bidding
+PR-2026-00629,Executive Admin,Field Survey Services,6630000.0,2026-03-14,Awarded
+PR-2024-00630,Risk & Compliance,Software Licenses,9680000.0,2024-09-22,Bidding
+PR-2025-00631,IT & Infrastructure,Software Licenses,31390000.0,2025-10-10,Awarded
+PR-2024-00632,Lending Operations,Office Consumables,5990000.0,2024-09-01,Awarded
+PR-2026-00633,Risk & Compliance,Media & PR,29110000.0,2026-07-22,Awarded
+PR-2024-00634,Procurement & Logistics,Software Licenses,30020000.0,2024-08-10,Awarded
+PR-2026-00635,Executive Admin,Media & PR,35480000.0,2026-03-13,Awarded
+PR-2025-00636,IT & Infrastructure,Field Survey Services,30860000.0,2025-11-03,Awarded
+PR-2024-00637,Procurement & Logistics,Office Consumables,26710000.0,2024-10-06,Awarded
+PR-2025-00638,Lending Operations,Software Licenses,1670000.0,2025-09-22,Bidding
+PR-2025-00639,Executive Admin,Software Licenses,15490000.0,2025-10-25,Awarded
+PR-2025-00640,IT & Infrastructure,Hardware Procurement,1410000.0,2025-05-20,Awarded
+PR-2026-00641,Procurement & Logistics,Office Consumables,14670000.0,2026-02-18,Awarded
+PR-2026-00642,Risk & Compliance,Media & PR,15880000.0,2026-06-06,Awarded
+PR-2025-00643,Risk & Compliance,Media & PR,40350000.0,2025-06-06,Bidding
+PR-2025-00644,Procurement & Logistics,Hardware Procurement,43850000.0,2025-07-07,Awarded
+PR-2025-00645,Executive Admin,Office Consumables,32330000.0,2025-05-16,Awarded
+PR-2025-00646,Executive Admin,Office Consumables,34690000.0,2025-11-25,Cancelled
+PR-2024-00647,Risk & Compliance,Office Consumables,33520000.0,2024-10-02,Awarded
+PR-2025-00648,Lending Operations,Software Licenses,12230000.0,2025-06-23,Cancelled
+PR-2025-00649,IT & Infrastructure,Office Consumables,23440000.0,2025-09-15,Awarded
+PR-2026-00650,Risk & Compliance,Software Licenses,31180000.0,2026-04-06,Awarded
+PR-2024-00651,Risk & Compliance,Field Survey Services,4910000.0,2024-11-03,Awarded
+PR-2026-00652,Risk & Compliance,Field Survey Services,18990000.0,2026-03-04,Awarded
+PR-2025-00653,Procurement & Logistics,Office Consumables,1490000.0,2025-10-13,Awarded
+PR-2026-00654,Executive Admin,Software Licenses,35720000.0,2026-06-10,Awarded
+PR-2024-00655,Procurement & Logistics,Office Consumables,8760000.0,2024-11-25,Awarded
+PR-2025-00656,IT & Infrastructure,Media & PR,44700000.0,2025-10-27,Bidding
+PR-2025-00657,Risk & Compliance,Field Survey Services,35830000.0,2025-10-20,Awarded
+PR-2026-00658,Procurement & Logistics,Office Consumables,14720000.0,2026-03-05,Bidding
+PR-2024-00659,IT & Infrastructure,Media & PR,44220000.0,2024-11-03,Awarded
+PR-2025-00660,Risk & Compliance,Office Consumables,24030000.0,2025-07-31,Awarded
+PR-2025-00661,Procurement & Logistics,Software Licenses,37270000.0,2025-06-26,Bidding
+PR-2025-00662,Procurement & Logistics,Field Survey Services,24020000.0,2025-12-27,Bidding
+PR-2025-00663,Executive Admin,Hardware Procurement,9950000.0,2025-02-09,Awarded
+PR-2026-00664,Lending Operations,Field Survey Services,41860000.0,2026-02-15,Bidding
+PR-2024-00665,IT & Infrastructure,Media & PR,42840000.0,2024-12-16,Awarded
+PR-2025-00666,Executive Admin,Media & PR,38060000.0,2025-01-26,Bidding
+PR-2024-00667,Executive Admin,Media & PR,36200000.0,2024-09-17,Awarded
+PR-2026-00668,Lending Operations,Media & PR,2640000.0,2026-04-05,Awarded
+PR-2026-00669,IT & Infrastructure,Software Licenses,9460000.0,2026-07-06,Awarded
+PR-2024-00670,Lending Operations,Office Consumables,24530000.0,2024-08-03,Awarded
+PR-2026-00671,Risk & Compliance,Media & PR,1240000.0,2026-08-03,Awarded
+PR-2025-00672,Lending Operations,Field Survey Services,20550000.0,2025-08-14,Awarded
+PR-2024-00673,Executive Admin,Software Licenses,3440000.0,2024-09-16,Awarded
+PR-2024-00674,IT & Infrastructure,Field Survey Services,42880000.0,2024-09-25,Bidding
+PR-2024-00675,Risk & Compliance,Hardware Procurement,2650000.0,2024-08-09,Bidding
+PR-2024-00676,IT & Infrastructure,Hardware Procurement,26690000.0,2024-08-24,Awarded
+PR-2025-00677,Lending Operations,Software Licenses,7910000.0,2025-11-01,Awarded
+PR-2025-00678,Risk & Compliance,Field Survey Services,36770000.0,2025-04-26,Awarded
+PR-2024-00679,IT & Infrastructure,Media & PR,30860000.0,2024-12-04,Awarded
+PR-2026-00680,IT & Infrastructure,Software Licenses,41090000.0,2026-07-06,Awarded
+PR-2025-00681,Risk & Compliance,Software Licenses,40160000.0,2025-09-07,Bidding
+PR-2025-00682,Risk & Compliance,Office Consumables,38870000.0,2025-01-21,Awarded
+PR-2025-00683,IT & Infrastructure,Software Licenses,35540000.0,2025-04-09,Awarded
+PR-2024-00684,IT & Infrastructure,Hardware Procurement,14270000.0,2024-08-18,Awarded
+PR-2025-00685,IT & Infrastructure,Software Licenses,26310000.0,2025-08-22,Awarded
+PR-2025-00686,Risk & Compliance,Office Consumables,43010000.0,2025-04-08,Bidding
+PR-2025-00687,Executive Admin,Software Licenses,42800000.0,2025-03-08,Awarded
+PR-2024-00688,Risk & Compliance,Field Survey Services,20250000.0,2024-10-24,Bidding
+PR-2024-00689,IT & Infrastructure,Media & PR,29030000.0,2024-11-11,Awarded
+PR-2025-00690,Executive Admin,Media & PR,27700000.0,2025-09-05,Bidding
+PR-2024-00691,Lending Operations,Media & PR,15960000.0,2024-10-09,Awarded
+PR-2024-00692,Risk & Compliance,Software Licenses,27190000.0,2024-10-15,Awarded
+PR-2025-00693,Lending Operations,Office Consumables,11440000.0,2025-02-25,Awarded
+PR-2024-00694,Executive Admin,Hardware Procurement,15750000.0,2024-11-30,Awarded
+PR-2026-00695,IT & Infrastructure,Field Survey Services,43290000.0,2026-07-18,Awarded
+PR-2026-00696,Risk & Compliance,Software Licenses,29930000.0,2026-07-13,Awarded
+PR-2025-00697,Procurement & Logistics,Software Licenses,27090000.0,2025-01-04,Awarded
+PR-2024-00698,Executive Admin,Software Licenses,15380000.0,2024-12-20,Cancelled
+PR-2026-00699,Lending Operations,Software Licenses,24740000.0,2026-06-28,Awarded
+PR-2024-00700,Executive Admin,Hardware Procurement,43600000.0,2024-10-16,Awarded
+PR-2026-00701,Lending Operations,Hardware Procurement,23100000.0,2026-04-27,Bidding
+PR-2025-00702,Procurement & Logistics,Field Survey Services,8990000.0,2025-07-29,Awarded
+PR-2025-00703,Lending Operations,Hardware Procurement,31460000.0,2025-10-12,Bidding
+PR-2025-00704,Executive Admin,Field Survey Services,10640000.0,2025-06-27,Awarded
+PR-2024-00705,Executive Admin,Software Licenses,6900000.0,2024-11-07,Bidding
+PR-2025-00706,Executive Admin,Media & PR,4770000.0,2025-05-09,Cancelled
+PR-2024-00707,IT & Infrastructure,Media & PR,5970000.0,2024-12-24,Awarded
+PR-2024-00708,Procurement & Logistics,Field Survey Services,16790000.0,2024-12-01,Awarded
+PR-2025-00709,Procurement & Logistics,Field Survey Services,32690000.0,2025-02-06,Awarded
+PR-2025-00710,IT & Infrastructure,Software Licenses,12990000.0,2025-07-22,Awarded
+PR-2026-00711,Executive Admin,Software Licenses,19240000.0,2026-05-01,Bidding
+PR-2026-00712,Executive Admin,Software Licenses,34590000.0,2026-02-17,Awarded
+PR-2024-00713,Lending Operations,Software Licenses,3320000.0,2024-11-12,Awarded
+PR-2026-00714,IT & Infrastructure,Media & PR,7660000.0,2026-02-13,Awarded
+PR-2025-00715,Procurement & Logistics,Office Consumables,21270000.0,2025-07-27,Cancelled
+PR-2025-00716,Executive Admin,Hardware Procurement,3710000.0,2025-09-17,Awarded
+PR-2025-00717,IT & Infrastructure,Hardware Procurement,13200000.0,2025-06-15,Awarded
+PR-2024-00718,IT & Infrastructure,Software Licenses,23930000.0,2024-11-10,Awarded
+PR-2025-00719,IT & Infrastructure,Hardware Procurement,33500000.0,2025-05-15,Awarded
+PR-2025-00720,Procurement & Logistics,Software Licenses,14890000.0,2025-05-27,Awarded
+PR-2026-00721,Lending Operations,Office Consumables,24250000.0,2026-05-12,Awarded
+PR-2026-00722,Lending Operations,Media & PR,2090000.0,2026-05-20,Awarded
+PR-2026-00723,Procurement & Logistics,Software Licenses,5170000.0,2026-06-24,Awarded
+PR-2025-00724,Lending Operations,Office Consumables,17380000.0,2025-11-01,Awarded
+PR-2026-00725,Risk & Compliance,Field Survey Services,14820000.0,2026-07-30,Awarded
+PR-2026-00726,Procurement & Logistics,Office Consumables,43690000.0,2026-07-15,Awarded
+PR-2024-00727,Risk & Compliance,Media & PR,42060000.0,2024-08-28,Awarded
+PR-2025-00728,Risk & Compliance,Office Consumables,17910000.0,2025-05-03,Awarded
+PR-2024-00729,IT & Infrastructure,Office Consumables,42500000.0,2024-09-02,Awarded
+PR-2026-00730,IT & Infrastructure,Software Licenses,10740000.0,2026-05-03,Awarded
+PR-2025-00731,Executive Admin,Media & PR,42350000.0,2025-06-27,Awarded
+PR-2026-00732,Lending Operations,Field Survey Services,23130000.0,2026-05-30,Awarded
+PR-2025-00733,Executive Admin,Field Survey Services,22530000.0,2025-02-23,Awarded
+PR-2026-00734,Lending Operations,Field Survey Services,17180000.0,2026-07-06,Awarded
+PR-2025-00735,Procurement & Logistics,Field Survey Services,17930000.0,2025-06-03,Awarded
+PR-2025-00736,Lending Operations,Software Licenses,22440000.0,2025-07-13,Awarded
+PR-2025-00737,Procurement & Logistics,Hardware Procurement,13960000.0,2025-05-18,Awarded
+PR-2025-00738,Executive Admin,Software Licenses,7410000.0,2025-09-05,Bidding
+PR-2026-00739,Procurement & Logistics,Office Consumables,25540000.0,2026-04-30,Bidding
+PR-2026-00740,IT & Infrastructure,Software Licenses,28600000.0,2026-03-19,Awarded
+PR-2025-00741,Executive Admin,Field Survey Services,41510000.0,2025-01-01,Awarded
+PR-2024-00742,Executive Admin,Field Survey Services,13690000.0,2024-11-05,Awarded
+PR-2025-00743,Lending Operations,Office Consumables,37140000.0,2025-04-11,Bidding
+PR-2025-00744,Executive Admin,Media & PR,8700000.0,2025-03-18,Bidding
+PR-2026-00745,Executive Admin,Field Survey Services,25130000.0,2026-07-24,Bidding
+PR-2025-00746,Risk & Compliance,Office Consumables,14710000.0,2025-01-09,Awarded
+PR-2024-00747,Lending Operations,Hardware Procurement,24880000.0,2024-08-18,Awarded
+PR-2024-00748,IT & Infrastructure,Software Licenses,12780000.0,2024-09-15,Bidding
+PR-2025-00749,Procurement & Logistics,Software Licenses,12440000.0,2025-07-04,Bidding
+PR-2026-00750,Executive Admin,Office Consumables,29980000.0,2026-04-07,Awarded
+PR-2025-00751,Lending Operations,Field Survey Services,43030000.0,2025-08-04,Awarded
+PR-2026-00752,Executive Admin,Field Survey Services,12170000.0,2026-03-02,Bidding
+PR-2025-00753,Lending Operations,Hardware Procurement,22250000.0,2025-10-27,Bidding
+PR-2025-00754,Lending Operations,Software Licenses,11810000.0,2025-08-22,Cancelled
+PR-2025-00755,Executive Admin,Office Consumables,19680000.0,2025-06-23,Awarded
+PR-2025-00756,IT & Infrastructure,Media & PR,36960000.0,2025-05-30,Awarded
+PR-2024-00757,Risk & Compliance,Media & PR,8450000.0,2024-09-21,Awarded
+PR-2026-00758,Lending Operations,Software Licenses,23440000.0,2026-07-15,Bidding
+PR-2026-00759,Executive Admin,Hardware Procurement,25560000.0,2026-07-13,Awarded
+PR-2026-00760,Executive Admin,Field Survey Services,3100000.0,2026-05-10,Bidding
+PR-2026-00761,Procurement & Logistics,Software Licenses,41410000.0,2026-07-28,Awarded
+PR-2025-00762,Lending Operations,Office Consumables,18670000.0,2025-08-03,Bidding
+PR-2025-00763,Lending Operations,Office Consumables,37010000.0,2025-11-28,Awarded
+PR-2024-00764,Procurement & Logistics,Office Consumables,12150000.0,2024-08-21,Awarded
+PR-2025-00765,Executive Admin,Hardware Procurement,8670000.0,2025-02-20,Awarded
+PR-2026-00766,Executive Admin,Hardware Procurement,11950000.0,2026-03-15,Awarded
+PR-2024-00767,Risk & Compliance,Office Consumables,33730000.0,2024-08-01,Awarded
+PR-2024-00768,IT & Infrastructure,Hardware Procurement,20470000.0,2024-12-25,Awarded
+PR-2026-00769,Executive Admin,Field Survey Services,17040000.0,2026-02-27,Awarded
+PR-2026-00770,Procurement & Logistics,Software Licenses,43700000.0,2026-07-13,Awarded
+PR-2026-00771,Lending Operations,Software Licenses,8570000.0,2026-02-19,Awarded
+PR-2025-00772,Lending Operations,Hardware Procurement,3270000.0,2025-03-17,Awarded
+PR-2025-00773,Lending Operations,Field Survey Services,44620000.0,2025-07-31,Bidding
+PR-2026-00774,Procurement & Logistics,Software Licenses,1100000.0,2026-02-12,Awarded
+PR-2026-00775,Risk & Compliance,Software Licenses,20140000.0,2026-07-23,Awarded
+PR-2026-00776,Executive Admin,Software Licenses,43450000.0,2026-05-13,Bidding
+PR-2025-00777,Lending Operations,Office Consumables,17570000.0,2025-09-03,Awarded
+PR-2026-00778,Executive Admin,Field Survey Services,23280000.0,2026-07-22,Awarded
+PR-2024-00779,IT & Infrastructure,Field Survey Services,23310000.0,2024-10-16,Awarded
+PR-2026-00780,IT & Infrastructure,Field Survey Services,3720000.0,2026-07-07,Awarded
+PR-2024-00781,Executive Admin,Media & PR,44290000.0,2024-12-28,Awarded
+PR-2025-00782,Procurement & Logistics,Media & PR,3540000.0,2025-09-08,Awarded
+PR-2024-00783,IT & Infrastructure,Media & PR,29540000.0,2024-09-16,Bidding
+PR-2024-00784,Procurement & Logistics,Hardware Procurement,4490000.0,2024-08-06,Awarded
+PR-2025-00785,Risk & Compliance,Media & PR,34670000.0,2025-04-09,Awarded
+PR-2026-00786,Procurement & Logistics,Office Consumables,15950000.0,2026-04-16,Bidding
+PR-2026-00787,Executive Admin,Software Licenses,42540000.0,2026-03-18,Awarded
+PR-2024-00788,Procurement & Logistics,Hardware Procurement,12940000.0,2024-10-30,Cancelled
+PR-2025-00789,Risk & Compliance,Field Survey Services,29690000.0,2025-04-17,Bidding
+PR-2025-00790,Risk & Compliance,Hardware Procurement,12310000.0,2025-12-01,Awarded
+PR-2024-00791,Procurement & Logistics,Software Licenses,35720000.0,2024-11-06,Awarded
+PR-2025-00792,Procurement & Logistics,Hardware Procurement,44610000.0,2025-10-17,Awarded
+PR-2024-00793,Lending Operations,Office Consumables,19500000.0,2024-12-18,Awarded
+PR-2025-00794,Risk & Compliance,Field Survey Services,4090000.0,2025-10-29,Awarded
+PR-2024-00795,Procurement & Logistics,Office Consumables,30270000.0,2024-12-29,Bidding
+PR-2024-00796,Executive Admin,Software Licenses,19170000.0,2024-08-04,Awarded
+PR-2026-00797,Executive Admin,Field Survey Services,13750000.0,2026-04-02,Awarded
+PR-2025-00798,IT & Infrastructure,Field Survey Services,30470000.0,2025-11-16,Bidding
+PR-2025-00799,Executive Admin,Field Survey Services,16830000.0,2025-10-02,Awarded
+PR-2025-00800,Procurement & Logistics,Media & PR,35560000.0,2025-11-29,Awarded

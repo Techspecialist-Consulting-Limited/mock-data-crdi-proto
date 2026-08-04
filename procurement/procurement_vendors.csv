@@ -1,0 +1,151 @@
+vendor_id,vendor_name,category,registration_date,status
+PRC-VND-0001,Okafor Ltd Ltd,Office Supplies & Printing,2024-01-02,Active
+PRC-VND-0002,"Ibrahim, Adetokunbo and Obi Limited",Logistics & Transport,2024-06-17,Active
+PRC-VND-0003,Balogun PLC Services,Office Supplies & Printing,2024-09-29,Active
+PRC-VND-0004,Adetokunbo and Sons Limited,Legal & Audit Consulting,2024-08-20,Active
+PRC-VND-0005,"Ojo, Balogun and Adeyemi Nig. Ltd",Facility Management,2024-01-29,Active
+PRC-VND-0006,Obasanjo LLC Ltd,Logistics & Transport,2025-04-12,Active
+PRC-VND-0007,"Ibrahim, Balogun and Ibrahim Ltd",Office Supplies & Printing,2024-02-13,Active
+PRC-VND-0008,Balogun-Eze Ltd,Logistics & Transport,2025-04-06,Active
+PRC-VND-0009,"Oshodi, Obi and Balogun Ltd",Legal & Audit Consulting,2024-10-06,Active
+PRC-VND-0010,"Obi, Oshodi and Olawale Services",IT Services & Hardware,2023-12-23,Active
+PRC-VND-0011,"Okafor, Obi and Olawale Limited",Office Supplies & Printing,2025-02-01,Active
+PRC-VND-0012,Obi LLC Services,Logistics & Transport,2023-12-30,Active
+PRC-VND-0013,"Okonkwo, Balogun and Akinwale Nig. Ltd",Facility Management,2025-02-08,Active
+PRC-VND-0014,"Obi, Adetokunbo and Adeyemi Nig. Ltd",Legal & Audit Consulting,2024-08-22,Active
+PRC-VND-0015,"Obasanjo, Olawale and Olawale Ltd",Facility Management,2024-08-14,Active
+PRC-VND-0016,Nnamani-Ibrahim Nig. Ltd,Logistics & Transport,2024-06-25,Active
+PRC-VND-0017,"Ekwueme, Ojo and Okonkwo Nig. Ltd",Facility Management,2024-09-17,Active
+PRC-VND-0018,Olawale-Abiola Nig. Ltd,Facility Management,2024-07-24,Active
+PRC-VND-0019,Akinwale-Akinwale Limited,Logistics & Transport,2025-06-08,Active
+PRC-VND-0020,Eze-Eze Services,Legal & Audit Consulting,2025-04-09,Active
+PRC-VND-0021,Ogunleye-Okafor Limited,Logistics & Transport,2024-05-09,Active
+PRC-VND-0022,Obasanjo LLC Limited,IT Services & Hardware,2024-01-22,Active
+PRC-VND-0023,Akinwale Ltd Services,Legal & Audit Consulting,2024-04-08,Active
+PRC-VND-0024,Eze Inc Nig. Ltd,IT Services & Hardware,2024-12-20,Active
+PRC-VND-0025,Balogun-Oyekan Ltd,IT Services & Hardware,2023-08-24,Pending Audit
+PRC-VND-0026,Uche and Sons Ltd,Legal & Audit Consulting,2025-07-04,Active
+PRC-VND-0027,Ogunleye-Chukwu Limited,Legal & Audit Consulting,2023-12-06,Pending Audit
+PRC-VND-0028,"Balogun, Ibrahim and Nnamani Nig. Ltd",Legal & Audit Consulting,2025-02-18,Active
+PRC-VND-0029,Akinwale-Obi Consulting,Legal & Audit Consulting,2025-03-31,Active
+PRC-VND-0030,Adeyemi and Sons Services,IT Services & Hardware,2024-08-15,Active
+PRC-VND-0031,Akinwale-Akinwale Ltd,Logistics & Transport,2024-01-21,Active
+PRC-VND-0032,Uche-Uche Ltd,Office Supplies & Printing,2023-11-17,Active
+PRC-VND-0033,Ibrahim-Eze Ltd,Legal & Audit Consulting,2025-07-04,Active
+PRC-VND-0034,"Okafor, Okonkwo and Chukwu Nig. Ltd",Logistics & Transport,2024-08-21,Active
+PRC-VND-0035,Nnamani-Obasanjo Consulting,Logistics & Transport,2025-01-03,Active
+PRC-VND-0036,Chukwu LLC Ltd,Logistics & Transport,2024-07-24,Active
+PRC-VND-0037,Ogunleye-Okonkwo Services,Facility Management,2024-09-06,Active
+PRC-VND-0038,"Oshodi, Ogunleye and Olawale Services",Facility Management,2024-11-30,Active
+PRC-VND-0039,Ogunleye and Sons Limited,IT Services & Hardware,2023-10-31,Active
+PRC-VND-0040,"Abiola, Abiola and Chukwu Ltd",Facility Management,2023-10-04,Active
+PRC-VND-0041,"Oyekan, Obasanjo and Uche Consulting",Facility Management,2024-06-27,Blacklisted
+PRC-VND-0042,Abiola LLC Limited,Facility Management,2024-08-13,Blacklisted
+PRC-VND-0043,Ekwueme Group Ltd,Logistics & Transport,2024-05-12,Pending Audit
+PRC-VND-0044,Uche-Nnamani Ltd,IT Services & Hardware,2024-07-26,Active
+PRC-VND-0045,"Nnamani, Nnamani and Adetokunbo Consulting",Logistics & Transport,2024-10-23,Active
+PRC-VND-0046,Oyekan-Akinwale Ltd,Facility Management,2024-06-08,Active
+PRC-VND-0047,Okonkwo-Oshodi Consulting,Legal & Audit Consulting,2025-06-18,Blacklisted
+PRC-VND-0048,Ibrahim Ltd Consulting,Legal & Audit Consulting,2025-01-17,Active
+PRC-VND-0049,Chukwu-Ojo Limited,Facility Management,2023-11-19,Active
+PRC-VND-0050,Olawale and Sons Limited,Logistics & Transport,2024-11-16,Active
+PRC-VND-0051,Okafor LLC Nig. Ltd,Office Supplies & Printing,2024-01-09,Active
+PRC-VND-0052,Oyekan Group Limited,IT Services & Hardware,2024-09-04,Active
+PRC-VND-0053,"Obi, Obasanjo and Ekwueme Nig. Ltd",Legal & Audit Consulting,2025-06-08,Blacklisted
+PRC-VND-0054,Adetokunbo-Adeyemi Limited,Legal & Audit Consulting,2024-07-28,Active
+PRC-VND-0055,Balogun and Sons Limited,Logistics & Transport,2025-04-22,Active
+PRC-VND-0056,Ibrahim Group Services,Facility Management,2024-12-09,Active
+PRC-VND-0057,Okonkwo PLC Consulting,Logistics & Transport,2023-10-01,Active
+PRC-VND-0058,"Oshodi, Balogun and Balogun Limited",Legal & Audit Consulting,2023-10-04,Active
+PRC-VND-0059,"Ekwueme, Obi and Adetokunbo Services",Logistics & Transport,2024-08-27,Active
+PRC-VND-0060,Balogun and Sons Consulting,Logistics & Transport,2024-04-20,Active
+PRC-VND-0061,"Ojo, Akinwale and Oyekan Limited",IT Services & Hardware,2025-06-28,Active
+PRC-VND-0062,Adetokunbo Group Nig. Ltd,Legal & Audit Consulting,2025-03-06,Active
+PRC-VND-0063,Uche LLC Ltd,Office Supplies & Printing,2024-05-21,Active
+PRC-VND-0064,Nnamani Group Limited,Office Supplies & Printing,2023-08-09,Active
+PRC-VND-0065,"Olawale, Akinwale and Ogunleye Consulting",Logistics & Transport,2025-01-20,Active
+PRC-VND-0066,"Balogun, Ojo and Obasanjo Nig. Ltd",Legal & Audit Consulting,2025-01-13,Active
+PRC-VND-0067,"Ibrahim, Oshodi and Abiola Services",Office Supplies & Printing,2023-12-29,Blacklisted
+PRC-VND-0068,Okonkwo-Nnamani Consulting,Office Supplies & Printing,2025-05-02,Active
+PRC-VND-0069,"Oyekan, Olawale and Uche Services",Legal & Audit Consulting,2024-04-15,Active
+PRC-VND-0070,Balogun-Chukwu Nig. Ltd,Logistics & Transport,2024-10-14,Active
+PRC-VND-0071,Oyekan PLC Consulting,Facility Management,2025-04-23,Active
+PRC-VND-0072,Okonkwo Ltd Consulting,Office Supplies & Printing,2025-01-29,Active
+PRC-VND-0073,"Eze, Uche and Ibrahim Consulting",Office Supplies & Printing,2025-07-17,Active
+PRC-VND-0074,Obasanjo-Chukwu Nig. Ltd,Office Supplies & Printing,2024-11-16,Active
+PRC-VND-0075,Chukwu PLC Services,Facility Management,2024-07-30,Active
+PRC-VND-0076,Oshodi Inc Consulting,Logistics & Transport,2025-01-03,Active
+PRC-VND-0077,Akinwale-Ojo Ltd,Legal & Audit Consulting,2024-03-27,Active
+PRC-VND-0078,"Eze, Balogun and Ogunleye Ltd",Facility Management,2023-10-06,Active
+PRC-VND-0079,Akinwale Inc Limited,Logistics & Transport,2023-08-12,Active
+PRC-VND-0080,"Eze, Obasanjo and Nnamani Ltd",Office Supplies & Printing,2024-07-31,Active
+PRC-VND-0081,Obi-Okafor Ltd,Legal & Audit Consulting,2025-01-14,Active
+PRC-VND-0082,Akinwale-Nnamani Limited,Office Supplies & Printing,2025-02-16,Active
+PRC-VND-0083,"Adeyemi, Nnamani and Obi Ltd",IT Services & Hardware,2024-02-26,Active
+PRC-VND-0084,Okafor-Obasanjo Services,Office Supplies & Printing,2024-06-18,Active
+PRC-VND-0085,Okonkwo Inc Consulting,Office Supplies & Printing,2024-09-11,Active
+PRC-VND-0086,"Adetokunbo, Eze and Ojo Consulting",IT Services & Hardware,2025-05-02,Active
+PRC-VND-0087,"Obi, Oyekan and Okafor Limited",Legal & Audit Consulting,2025-04-20,Active
+PRC-VND-0088,Okafor LLC Ltd,Office Supplies & Printing,2025-06-01,Active
+PRC-VND-0089,"Oshodi, Obi and Obi Ltd",Logistics & Transport,2024-04-03,Active
+PRC-VND-0090,Eze and Sons Nig. Ltd,Office Supplies & Printing,2025-04-25,Active
+PRC-VND-0091,"Ekwueme, Ibrahim and Ibrahim Services",Logistics & Transport,2023-11-09,Pending Audit
+PRC-VND-0092,Ogunleye-Ojo Nig. Ltd,Office Supplies & Printing,2024-12-30,Active
+PRC-VND-0093,Uche and Sons Services,IT Services & Hardware,2025-04-08,Active
+PRC-VND-0094,Olawale and Sons Services,Legal & Audit Consulting,2025-01-20,Active
+PRC-VND-0095,Okafor PLC Consulting,Facility Management,2023-12-02,Active
+PRC-VND-0096,Ojo-Ekwueme Ltd,IT Services & Hardware,2025-01-18,Active
+PRC-VND-0097,"Okonkwo, Balogun and Balogun Limited",Logistics & Transport,2024-10-02,Active
+PRC-VND-0098,Ekwueme-Oyekan Nig. Ltd,Facility Management,2024-03-20,Active
+PRC-VND-0099,Okafor Group Services,Facility Management,2023-11-22,Active
+PRC-VND-0100,Adetokunbo-Okafor Consulting,Logistics & Transport,2024-12-15,Active
+PRC-VND-0101,"Uche, Balogun and Olawale Ltd",IT Services & Hardware,2024-07-04,Active
+PRC-VND-0102,"Okafor, Olawale and Obi Limited",Legal & Audit Consulting,2024-05-26,Active
+PRC-VND-0103,Okonkwo-Eze Limited,IT Services & Hardware,2025-01-31,Active
+PRC-VND-0104,"Abiola, Obi and Ojo Consulting",Facility Management,2025-03-15,Active
+PRC-VND-0105,Chukwu and Sons Limited,Legal & Audit Consulting,2025-03-28,Active
+PRC-VND-0106,Ogunleye and Sons Ltd,Office Supplies & Printing,2023-10-19,Active
+PRC-VND-0107,Balogun-Obi Consulting,Facility Management,2025-06-25,Active
+PRC-VND-0108,"Adeyemi, Oshodi and Eze Limited",Legal & Audit Consulting,2023-08-22,Active
+PRC-VND-0109,Akinwale and Sons Limited,Facility Management,2024-04-16,Active
+PRC-VND-0110,Obasanjo-Ibrahim Nig. Ltd,Legal & Audit Consulting,2025-05-25,Active
+PRC-VND-0111,Ibrahim-Olawale Consulting,Legal & Audit Consulting,2025-03-27,Active
+PRC-VND-0112,"Obasanjo, Ojo and Ekwueme Consulting",Facility Management,2024-08-21,Active
+PRC-VND-0113,Ojo-Akinwale Consulting,IT Services & Hardware,2024-08-05,Active
+PRC-VND-0114,"Ogunleye, Ibrahim and Okafor Nig. Ltd",Legal & Audit Consulting,2024-11-20,Active
+PRC-VND-0115,"Akinwale, Akinwale and Abiola Ltd",IT Services & Hardware,2025-07-23,Active
+PRC-VND-0116,Okonkwo-Oyekan Services,Logistics & Transport,2024-02-13,Pending Audit
+PRC-VND-0117,Adeyemi-Chukwu Consulting,IT Services & Hardware,2023-09-06,Blacklisted
+PRC-VND-0118,Oyekan and Sons Nig. Ltd,Logistics & Transport,2025-01-03,Active
+PRC-VND-0119,Ojo Ltd Ltd,Logistics & Transport,2025-05-01,Active
+PRC-VND-0120,Okafor LLC Consulting,Legal & Audit Consulting,2024-07-09,Active
+PRC-VND-0121,Adetokunbo Inc Ltd,IT Services & Hardware,2025-01-19,Active
+PRC-VND-0122,Okafor-Ekwueme Limited,Facility Management,2025-01-26,Active
+PRC-VND-0123,Oyekan Group Limited,Logistics & Transport,2024-10-11,Active
+PRC-VND-0124,Olawale and Sons Ltd,IT Services & Hardware,2024-12-24,Blacklisted
+PRC-VND-0125,Balogun-Olawale Nig. Ltd,Office Supplies & Printing,2024-04-25,Active
+PRC-VND-0126,Obi-Obi Limited,IT Services & Hardware,2023-10-25,Active
+PRC-VND-0127,Eze-Ekwueme Ltd,Legal & Audit Consulting,2025-04-10,Active
+PRC-VND-0128,"Eze, Ekwueme and Eze Services",IT Services & Hardware,2025-04-01,Active
+PRC-VND-0129,"Adeyemi, Ogunleye and Obi Limited",Office Supplies & Printing,2025-06-03,Active
+PRC-VND-0130,Adeyemi LLC Limited,Logistics & Transport,2024-08-27,Active
+PRC-VND-0131,Adetokunbo-Adeyemi Nig. Ltd,Logistics & Transport,2024-04-30,Active
+PRC-VND-0132,Ibrahim-Oyekan Limited,Office Supplies & Printing,2025-06-10,Active
+PRC-VND-0133,Oyekan Inc Ltd,IT Services & Hardware,2024-02-15,Active
+PRC-VND-0134,Akinwale Inc Services,Legal & Audit Consulting,2025-01-25,Active
+PRC-VND-0135,Okonkwo-Chukwu Services,Logistics & Transport,2023-11-28,Pending Audit
+PRC-VND-0136,Chukwu-Adeyemi Consulting,Legal & Audit Consulting,2024-06-26,Active
+PRC-VND-0137,Okafor LLC Ltd,IT Services & Hardware,2025-04-26,Active
+PRC-VND-0138,"Balogun, Ibrahim and Adeyemi Limited",Office Supplies & Printing,2024-09-08,Active
+PRC-VND-0139,Akinwale-Okafor Ltd,Legal & Audit Consulting,2024-09-19,Pending Audit
+PRC-VND-0140,"Balogun, Eze and Olawale Ltd",Legal & Audit Consulting,2024-06-19,Active
+PRC-VND-0141,"Eze, Ogunleye and Uche Services",Logistics & Transport,2024-02-25,Blacklisted
+PRC-VND-0142,Adeyemi Ltd Services,Facility Management,2025-01-22,Active
+PRC-VND-0143,"Ojo, Adeyemi and Oshodi Nig. Ltd",Office Supplies & Printing,2024-03-13,Active
+PRC-VND-0144,Adetokunbo Inc Nig. Ltd,Legal & Audit Consulting,2024-12-24,Active
+PRC-VND-0145,Olawale-Ogunleye Limited,Office Supplies & Printing,2023-11-25,Active
+PRC-VND-0146,"Akinwale, Nnamani and Oshodi Consulting",IT Services & Hardware,2024-09-07,Active
+PRC-VND-0147,"Nnamani, Ojo and Uche Ltd",Facility Management,2025-04-09,Active
+PRC-VND-0148,Eze-Olawale Limited,Logistics & Transport,2025-06-20,Active
+PRC-VND-0149,"Okonkwo, Ojo and Okonkwo Services",Office Supplies & Printing,2025-02-21,Active
+PRC-VND-0150,"Obi, Nnamani and Olawale Nig. Ltd",Legal & Audit Consulting,2023-09-09,Active
