@@ -1,7 +1,15 @@
-import csv, collections, os
+import csv, collections, os, sys
 from datetime import datetime, timedelta
 
-ROOT = r"c:\Users\SALE\Documents\TCL\Credi-corp\zdf_mock_data"
+# dataset root: argv[1] if supplied, otherwise this script's own folder
+ROOT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
+
+
+def truthy(v):
+    """Accept python-style 'True' and cleaned lowercase 'true' boolean text."""
+    return str(v).strip().lower() in ('true', 't', 'yes', '1')
+
+
 L = os.path.join(ROOT, 'Lending'); P = os.path.join(ROOT, 'PFI Partner Portal')
 F = os.path.join(ROOT, 'finance'); R = os.path.join(ROOT, 'procurement')
 ASOF = datetime(2026, 8, 4); ASOFS = '2026-08-04'
@@ -100,7 +108,7 @@ firstbad = ftbf = 0
 for b, rows in benapps.items():
     rows.sort(key=lambda r: r['submitted_date'])
     for i, r in enumerate(rows):
-        if (r['first_time_borrower_flag'] == 'True') != (i == 0):
+        if truthy(r['first_time_borrower_flag']) != (i == 0):
             firstbad += 1
         if r['product'] == 'First-Time Borrower Fund' and i != 0:
             ftbf += 1
@@ -201,15 +209,16 @@ chk("PR award.bid_id matches same requisition + vendor",
     all(bidby[a['bid_id']]['requisition_id'] == a['requisition_id'] and bidby[a['bid_id']]['vendor_id'] == a['vendor_id'] for a in awd))
 chk("PR awarded_value == winning bid amount",
     all(abs(float(a['awarded_value']) - float(bidby[a['bid_id']]['bid_amount'])) < 0.01 for a in awd))
-chk("PR winning bid is responsive", all(bidby[a['bid_id']]['responsive_flag'] == 'True' for a in awd))
+chk("PR winning bid is responsive", all(truthy(bidby[a['bid_id']]['responsive_flag']) for a in awd))
 lowest = {}
 for b in bid:
-    if b['responsive_flag'] == 'True':
+    if truthy(b['responsive_flag']):
         k = b['requisition_id']
         if k not in lowest or float(b['bid_amount']) < lowest[k]:
             lowest[k] = float(b['bid_amount'])
+chk("PR every awarded requisition has a responsive bid", all(a['requisition_id'] in lowest for a in awd))
 chk("PR justification 'Lowest Responsive Bid' only when actually lowest",
-    all((a['award_justification'] == 'Lowest Responsive Bid') == (abs(float(a['awarded_value']) - lowest[a['requisition_id']]) < 0.01) for a in awd))
+    all((a['award_justification'] == 'Lowest Responsive Bid') == (abs(float(a['awarded_value']) - lowest.get(a['requisition_id'], -1)) < 0.01) for a in awd))
 dw = collections.defaultdict(list)
 for d in doc:
     dw[d['vendor_id']].append((d['issue_date'], d['expiry_date']))
@@ -314,3 +323,5 @@ print(str(len(ok)) + " PASS / " + str(len(bad)) + " FAIL")
 print()
 for b in bad:
     print(b)
+
+raise SystemExit(1 if bad else 0)

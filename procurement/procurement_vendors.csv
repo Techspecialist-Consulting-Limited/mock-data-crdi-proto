@@ -1,10 +1,10 @@
 vendor_id,vendor_name,category,registration_date,status
-PRC-VND-0001,Okafor Ltd Ltd,IT Hardware & Infrastructure,2023-01-10,Active
+PRC-VND-0001,Okafor Ltd,IT Hardware & Infrastructure,2023-01-10,Active
 PRC-VND-0002,"Ibrahim, Adetokunbo and Obi Limited",Software & Licenses,2023-01-14,Active
 PRC-VND-0003,Balogun PLC Services,Office Supplies & Printing,2023-01-18,Active
 PRC-VND-0004,Adetokunbo and Sons Limited,Field Survey & Logistics,2023-01-23,Suspended
 PRC-VND-0005,"Ojo, Balogun and Adeyemi Nig. Ltd","Media, PR & Professional Services",2023-01-27,Active
-PRC-VND-0006,Obasanjo LLC Ltd,IT Hardware & Infrastructure,2023-02-01,Active
+PRC-VND-0006,Obasanjo Ltd,IT Hardware & Infrastructure,2023-02-01,Active
 PRC-VND-0007,"Ibrahim, Balogun and Ibrahim Ltd",Software & Licenses,2023-02-05,Active
 PRC-VND-0008,Balogun-Eze Ltd,Office Supplies & Printing,2023-02-10,Active
 PRC-VND-0009,"Oshodi, Obi and Balogun Ltd",Field Survey & Logistics,2023-02-14,Active
@@ -20,9 +20,9 @@ PRC-VND-0018,Olawale-Abiola Nig. Ltd,Office Supplies & Printing,2023-03-26,Activ
 PRC-VND-0019,Akinwale-Akinwale Limited,Field Survey & Logistics,2023-03-31,Active
 PRC-VND-0020,Eze-Eze Services,"Media, PR & Professional Services",2023-04-04,Suspended
 PRC-VND-0021,Ogunleye-Okafor Limited,IT Hardware & Infrastructure,2023-04-09,Active
-PRC-VND-0022,Obasanjo LLC Limited,Software & Licenses,2023-04-13,Active
+PRC-VND-0022,Obasanjo Limited,Software & Licenses,2023-04-13,Active
 PRC-VND-0023,Akinwale Ltd Services,Office Supplies & Printing,2023-04-18,Active
-PRC-VND-0024,Eze Inc Nig. Ltd,Field Survey & Logistics,2023-04-22,Active
+PRC-VND-0024,Eze Nig. Ltd,Field Survey & Logistics,2023-04-22,Active
 PRC-VND-0025,Balogun-Oyekan Ltd,"Media, PR & Professional Services",2023-04-27,Active
 PRC-VND-0026,Uche and Sons Ltd,IT Hardware & Infrastructure,2023-05-01,Active
 PRC-VND-0027,Ogunleye-Chukwu Limited,Software & Licenses,2023-05-05,Active
@@ -34,13 +34,13 @@ PRC-VND-0032,Uche-Uche Ltd,Software & Licenses,2023-05-28,Active
 PRC-VND-0033,Ibrahim-Eze Ltd,Office Supplies & Printing,2023-06-01,Active
 PRC-VND-0034,"Okafor, Okonkwo and Chukwu Nig. Ltd",Field Survey & Logistics,2023-06-06,Active
 PRC-VND-0035,Nnamani-Obasanjo Consulting,"Media, PR & Professional Services",2023-06-10,Active
-PRC-VND-0036,Chukwu LLC Ltd,IT Hardware & Infrastructure,2023-06-15,Suspended
+PRC-VND-0036,Chukwu Ltd,IT Hardware & Infrastructure,2023-06-15,Suspended
 PRC-VND-0037,Ogunleye-Okonkwo Services,Software & Licenses,2023-06-19,Active
 PRC-VND-0038,"Oshodi, Ogunleye and Olawale Services",Office Supplies & Printing,2023-06-23,Active
 PRC-VND-0039,Ogunleye and Sons Limited,Field Survey & Logistics,2023-06-28,Active
 PRC-VND-0040,"Abiola, Abiola and Chukwu Ltd","Media, PR & Professional Services",2023-07-02,Active
 PRC-VND-0041,"Oyekan, Obasanjo and Uche Consulting",IT Hardware & Infrastructure,2023-07-07,Active
-PRC-VND-0042,Abiola LLC Limited,Software & Licenses,2023-07-11,Active
+PRC-VND-0042,Abiola Limited,Software & Licenses,2023-07-11,Active
 PRC-VND-0043,Ekwueme Group Ltd,Office Supplies & Printing,2023-07-16,Active
 PRC-VND-0044,Uche-Nnamani Ltd,Field Survey & Logistics,2023-07-20,Suspended
 PRC-VND-0045,"Nnamani, Nnamani and Adetokunbo Consulting","Media, PR & Professional Services",2023-07-25,Active
@@ -49,7 +49,7 @@ PRC-VND-0047,Okonkwo-Oshodi Consulting,Software & Licenses,2023-08-03,Active
 PRC-VND-0048,Ibrahim Ltd Consulting,Office Supplies & Printing,2023-08-07,Active
 PRC-VND-0049,Chukwu-Ojo Limited,Field Survey & Logistics,2023-08-12,Active
 PRC-VND-0050,Olawale and Sons Limited,"Media, PR & Professional Services",2023-08-16,Active
-PRC-VND-0051,Okafor LLC Nig. Ltd,IT Hardware & Infrastructure,2023-08-20,Active
+PRC-VND-0051,Okafor Nig. Ltd,IT Hardware & Infrastructure,2023-08-20,Active
 PRC-VND-0052,Oyekan Group Limited,Software & Licenses,2023-08-25,Suspended
 PRC-VND-0053,"Obi, Obasanjo and Ekwueme Nig. Ltd",Office Supplies & Printing,2023-08-29,Active
 PRC-VND-0054,Adetokunbo-Adeyemi Limited,Field Survey & Logistics,2023-09-03,Active
@@ -61,7 +61,7 @@ PRC-VND-0059,"Ekwueme, Obi and Adetokunbo Services",Field Survey & Logistics,202
 PRC-VND-0060,Balogun and Sons Consulting,"Media, PR & Professional Services",2023-09-30,Suspended
 PRC-VND-0061,"Ojo, Akinwale and Oyekan Limited",IT Hardware & Infrastructure,2023-10-04,Active
 PRC-VND-0062,Adetokunbo Group Nig. Ltd,Software & Licenses,2023-10-08,Active
-PRC-VND-0063,Uche LLC Ltd,Office Supplies & Printing,2023-10-13,Active
+PRC-VND-0063,Uche Ltd,Office Supplies & Printing,2023-10-13,Active
 PRC-VND-0064,Nnamani Group Limited,Field Survey & Logistics,2023-10-17,Active
 PRC-VND-0065,"Olawale, Akinwale and Ogunleye Consulting","Media, PR & Professional Services",2023-10-22,Active
 PRC-VND-0066,"Balogun, Ojo and Obasanjo Nig. Ltd",IT Hardware & Infrastructure,2023-10-26,Active
@@ -77,7 +77,7 @@ PRC-VND-0075,Chukwu PLC Services,"Media, PR & Professional Services",2023-12-05,
 PRC-VND-0076,Oshodi Inc Consulting,IT Hardware & Infrastructure,2023-12-10,Suspended
 PRC-VND-0077,Akinwale-Ojo Ltd,Software & Licenses,2023-12-14,Active
 PRC-VND-0078,"Eze, Balogun and Ogunleye Ltd",Office Supplies & Printing,2023-12-19,Active
-PRC-VND-0079,Akinwale Inc Limited,Field Survey & Logistics,2023-12-23,Active
+PRC-VND-0079,Akinwale Limited,Field Survey & Logistics,2023-12-23,Active
 PRC-VND-0080,"Eze, Obasanjo and Nnamani Ltd","Media, PR & Professional Services",2023-12-28,Active
 PRC-VND-0081,Obi-Okafor Ltd,IT Hardware & Infrastructure,2024-01-01,Active
 PRC-VND-0082,Akinwale-Nnamani Limited,Software & Licenses,2024-01-06,Active
@@ -86,7 +86,7 @@ PRC-VND-0084,Okafor-Obasanjo Services,Field Survey & Logistics,2024-01-15,Suspen
 PRC-VND-0085,Okonkwo Inc Consulting,"Media, PR & Professional Services",2024-01-19,Active
 PRC-VND-0086,"Adetokunbo, Eze and Ojo Consulting",IT Hardware & Infrastructure,2024-01-23,Active
 PRC-VND-0087,"Obi, Oyekan and Okafor Limited",Software & Licenses,2024-01-28,Active
-PRC-VND-0088,Okafor LLC Ltd,Office Supplies & Printing,2024-02-01,Active
+PRC-VND-0088,Okafor Ltd (PRC-VND-0088),Office Supplies & Printing,2024-02-01,Active
 PRC-VND-0089,"Oshodi, Obi and Obi Ltd",Field Survey & Logistics,2024-02-06,Active
 PRC-VND-0090,Eze and Sons Nig. Ltd,"Media, PR & Professional Services",2024-02-10,Active
 PRC-VND-0091,"Ekwueme, Ibrahim and Ibrahim Services",IT Hardware & Infrastructure,2024-02-15,Active
@@ -117,32 +117,32 @@ PRC-VND-0115,"Akinwale, Akinwale and Abiola Ltd","Media, PR & Professional Servi
 PRC-VND-0116,Okonkwo-Oyekan Services,IT Hardware & Infrastructure,2024-06-05,Suspended
 PRC-VND-0117,Adeyemi-Chukwu Consulting,Software & Licenses,2024-06-10,Active
 PRC-VND-0118,Oyekan and Sons Nig. Ltd,Office Supplies & Printing,2024-06-14,Active
-PRC-VND-0119,Ojo Ltd Ltd,Field Survey & Logistics,2024-06-19,Active
+PRC-VND-0119,Ojo Ltd,Field Survey & Logistics,2024-06-19,Active
 PRC-VND-0120,Okafor LLC Consulting,"Media, PR & Professional Services",2024-06-23,Active
-PRC-VND-0121,Adetokunbo Inc Ltd,IT Hardware & Infrastructure,2024-09-01,Active
+PRC-VND-0121,Adetokunbo Ltd,IT Hardware & Infrastructure,2024-09-01,Active
 PRC-VND-0122,Okafor-Ekwueme Limited,Software & Licenses,2024-09-14,Active
-PRC-VND-0123,Oyekan Group Limited,Office Supplies & Printing,2024-09-27,Active
+PRC-VND-0123,Oyekan Group Limited (PRC-VND-0123),Office Supplies & Printing,2024-09-27,Active
 PRC-VND-0124,Olawale and Sons Ltd,Field Survey & Logistics,2024-10-11,Suspended
 PRC-VND-0125,Balogun-Olawale Nig. Ltd,"Media, PR & Professional Services",2024-10-24,Active
 PRC-VND-0126,Obi-Obi Limited,IT Hardware & Infrastructure,2024-11-06,Active
 PRC-VND-0127,Eze-Ekwueme Ltd,Software & Licenses,2024-11-20,Active
 PRC-VND-0128,"Eze, Ekwueme and Eze Services",Office Supplies & Printing,2024-12-03,Active
 PRC-VND-0129,"Adeyemi, Ogunleye and Obi Limited",Field Survey & Logistics,2024-12-16,Active
-PRC-VND-0130,Adeyemi LLC Limited,"Media, PR & Professional Services",2024-12-30,Active
+PRC-VND-0130,Adeyemi Limited,"Media, PR & Professional Services",2024-12-30,Active
 PRC-VND-0131,Adetokunbo-Adeyemi Nig. Ltd,IT Hardware & Infrastructure,2025-01-12,Active
 PRC-VND-0132,Ibrahim-Oyekan Limited,Software & Licenses,2025-01-25,Suspended
-PRC-VND-0133,Oyekan Inc Ltd,Office Supplies & Printing,2025-02-08,Active
+PRC-VND-0133,Oyekan Ltd,Office Supplies & Printing,2025-02-08,Active
 PRC-VND-0134,Akinwale Inc Services,Field Survey & Logistics,2025-02-21,Active
 PRC-VND-0135,Okonkwo-Chukwu Services,"Media, PR & Professional Services",2025-03-06,Active
 PRC-VND-0136,Chukwu-Adeyemi Consulting,IT Hardware & Infrastructure,2025-03-20,Active
-PRC-VND-0137,Okafor LLC Ltd,Software & Licenses,2025-04-02,Active
+PRC-VND-0137,Okafor Ltd (PRC-VND-0137),Software & Licenses,2025-04-02,Active
 PRC-VND-0138,"Balogun, Ibrahim and Adeyemi Limited",Office Supplies & Printing,2025-04-15,Active
 PRC-VND-0139,Akinwale-Okafor Ltd,Field Survey & Logistics,2025-04-29,Active
 PRC-VND-0140,"Balogun, Eze and Olawale Ltd","Media, PR & Professional Services",2025-05-12,Suspended
 PRC-VND-0141,"Eze, Ogunleye and Uche Services",IT Hardware & Infrastructure,2025-05-25,Active
 PRC-VND-0142,Adeyemi Ltd Services,Software & Licenses,2025-06-08,Active
 PRC-VND-0143,"Ojo, Adeyemi and Oshodi Nig. Ltd",Office Supplies & Printing,2025-06-21,Active
-PRC-VND-0144,Adetokunbo Inc Nig. Ltd,Field Survey & Logistics,2025-07-04,Active
+PRC-VND-0144,Adetokunbo Nig. Ltd,Field Survey & Logistics,2025-07-04,Active
 PRC-VND-0145,Olawale-Ogunleye Limited,"Media, PR & Professional Services",2025-07-18,Active
 PRC-VND-0146,"Akinwale, Nnamani and Oshodi Consulting",IT Hardware & Infrastructure,2025-07-31,Active
 PRC-VND-0147,"Nnamani, Ojo and Uche Ltd",Software & Licenses,2025-08-13,Active

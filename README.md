@@ -235,16 +235,120 @@ finance_funding_sources → finance_drawdowns → finance_payments
 | Loans disbursed | 30,742 · **₦114.30bn** |
 | Repayments received | **₦93.70bn** |
 | Facilities | ₦55.00bn total · **₦37.00bn drawn** · ₦18.00bn available |
-| Total payments out | **₦124.19bn** (30,742 loan payouts + 982 supplier payments) |
+| Total payments out | **₦124.20bn** (30,742 loan payouts + 986 supplier payments) |
 | Partner returns filed | 950 submissions from 38 partners over 25 months |
-| Loans reported by partners | 238,912 (30,742 ZDF-funded · 208,170 partner own book) |
-| Procurement awarded | 591 contracts · **₦12.49bn** |
+| Loans reported by partners | 238,869 (30,742 ZDF-funded · 208,127 partner own book) |
+| Procurement awarded | 590 contracts · **₦12.49bn** |
 
 ---
 
-# 7. Working with this data
+# 7. Data cleaning applied
+
+The whole dataset has been run through [clean_script.py](clean_script.py). It is **idempotent** — running it again produces byte-identical files — and it finishes by re-running all 130 relationship checks, **rolling back automatically if any of them break**. Cleaning is never allowed to damage the relationships in sections 1–5.
+
+## What was cleaned
+
+### 1. Money and rates given a consistent 2 decimal places
+**714,159 cells across 23 columns.**
+
+| Before | After |
+|---|---|
+| `3910000.0` | `3910000.00` |
+| `93.7` | `93.70` |
+| `30000000000.0` | `30000000000.00` |
+
+**Why:** the same column mixed one and two decimals (`93.7` next to `36611000.00`). A tool reading the column has to guess the scale, and currency totals can drift by a kobo per row. One fixed width makes every amount unambiguous. Counts that are *not* money — `arrears_days`, `days_overdue`, `instalment_number`, `record_count`, `variations`, `fiscal_period` — were forced the other way, to whole numbers with no decimal point at all.
+
+> Values were **re-rendered, not recalculated**. Any amount that rounding would have moved by more than half a kobo is reported instead of changed — nothing was silently altered.
+
+### 2. Booleans written in lowercase
+**42,346 cells across 2 columns** (`first_time_borrower_flag`, `responsive_flag`).
+
+| Before | After |
+|---|---|
+| `True` | `true` |
+| `False` | `false` |
+
+**Why:** `True`/`False` is Python's spelling. Fabric, Spark and SQL engines don't recognise it, so they load the column as **text** — and in text, the string `"False"` is non-empty and therefore counts as *true* in a filter. That silently inverts logic like "show me the non-responsive bids". Lowercase `true`/`false` is parsed natively as a real boolean.
+
+### 3. Doubled legal suffixes in company names collapsed
+**16 vendor names.**
+
+| Before | After |
+|---|---|
+| `Okafor Ltd Ltd` | `Okafor Ltd` |
+| `Obasanjo LLC Ltd` | `Obasanjo Ltd` |
+| `Eze Inc Nig. Ltd` | `Eze Nig. Ltd` |
+| `Akinwale Inc Limited` | `Akinwale Limited` |
+| `Adetokunbo Inc Nig. Ltd` | `Adetokunbo Nig. Ltd` |
+
+**Why:** no company carries two legal forms at once. A name holding both reads as a data-entry error, and it breaks any name-based matching or search a user tries. The rule keeps only the **last** designator (`Ltd`, `Limited`, `LLC`, `Inc`, `PLC`); locality words like `Nig.` are left alone.
+
+### 4. Names shared by two different entities made unique
+**4 labels.**
+
+| Before | After |
+|---|---|
+| `Okafor Ltd` on `PRC-VND-0088` | `Okafor Ltd (PRC-VND-0088)` |
+| `Okafor Ltd` on `PRC-VND-0137` | `Okafor Ltd (PRC-VND-0137)` |
+| `Oyekan Group Limited` on `PRC-VND-0123` | `Oyekan Group Limited (PRC-VND-0123)` |
+| `Adetokunbo Ltd Bank` on `PFI-22` | `Adetokunbo Ltd Bank (PFI-22)` |
+
+**Why:** these are genuinely different organisations that happened to share a label. Anyone grouping a report by name would silently merge two vendors into one and double their spend. The lowest ID keeps the original name; the others are tagged with their own ID so the label is unique but still readable.
+
+> **Cascade:** `finance_payments.payee` stores these names as text. All **937** affected payment rows were updated too — resolved through the *foreign keys* (payment → invoice → vendor, and payment → disbursement → approval → application → partner), never by matching on the old name, because two vendors sharing a label would be impossible to tell apart that way.
+
+### 5. Line endings and encoding standardised
+**All 22 files** converted from Windows `CRLF` to `LF`, written as UTF-8 with no byte-order mark, `QUOTE_MINIMAL` quoting, and a trailing newline.
+
+**Why:** a stray `\r` gets read as part of the last value on every row, so `Active` becomes `Active\r` and stops matching `Active`. A BOM does the same to the first column name in the header. LF + UTF-8 without BOM is what Fabric, Spark and pandas expect.
+
+### 6. Blanks left as genuine blanks
+**473,384 empty cells across 8 columns were deliberately left empty**, and sentinel strings (`NA`, `N/A`, `null`, `None`, `-`, `unknown`) are converted to empty if they ever appear.
+
+**Why:** in this dataset blank *means something* — a blank `disbursement_id` on a portfolio record means "the partner funded this itself", and a blank `paid_date` means "this instalment hasn't been paid yet". Filling those with `0` or `"Unknown"` would invent facts. An empty cell reads as a proper NULL; the word `"None"` reads as text and quietly breaks both counts and joins.
+
+## Checks that ran and found nothing
+
+The script still performs these on every run, so they catch problems in any future load:
+
+| Check | Found |
+|---|---|
+| Exact duplicate rows | 0 |
+| Leading/trailing whitespace, doubled internal spaces | 0 |
+| Blank rows | 0 |
+| Ragged rows (wrong number of columns) | 0 |
+| Byte-order marks | 0 |
+| Header problems (casing, spaces, duplicates) | 0 |
+| Category value drift (`Active` vs `active` vs `ACTIVE`) | 0 |
+| Mixed date formats within one column | 0 |
+
+## Re-running it
+
+```bash
+python clean_script.py                  # clean in place (git is the undo)
+python clean_script.py --dry-run        # report what would change, write nothing
+python clean_script.py --out ./clean    # write to a mirror folder instead
+python clean_script.py --no-names       # skip the name cleanup (items 3 and 4)
+```
+
+Every run writes `clean_report.json` listing what changed, per file and per column. The row-level helpers (`clean_cell`, `normalise_number`, `collapse_designators`) are pure string functions with no imports or I/O, so they can be lifted straight into a Fabric dataflow step or a Spark UDF.
+
+---
+
+# 8. Working with this data
 
 - **Join on IDs, never on names or free text.** Every relationship above is an ID column.
 - **Derived columns must be recalculated, not typed.** Anything marked *derived* (`record_count`, `drawn`, `actual`, `contract_value`, `days_overdue`, `zdf_exposure`, the whole treasury table, vendor and submission `status`) will contradict its source table if you edit it directly.
 - **Blank is meaningful.** A blank `disbursement_id`, `invoice_id`, `beneficiary_id`, `paid_date` or `submitted_date` means "not applicable / hasn't happened", not missing data.
-- **Money** is in Nigerian naira (₦). **Timestamps** are `YYYY-MM-DD HH:MM:SS`; **dates** are `YYYY-MM-DD`.
+- **Money** is in Nigerian naira (₦), always 2 decimal places. **Timestamps** are `YYYY-MM-DD HH:MM:SS`; **dates** are `YYYY-MM-DD`; `reporting_period` is `YYYY-MM`.
+- **Booleans** are lowercase `true` / `false` — safe to load as a real boolean type.
+- **Files** are UTF-8 without BOM, LF line endings.
+
+## Scripts in this folder
+
+| Script | What it does |
+|---|---|
+[clean_script.py](clean_script.py) | Cleans the dataset (section 7). Idempotent, validates, rolls back on failure. |
+[_tools_verify_relationships.py](_tools_verify_relationships.py) | The 130 relationship and business-rule checks. Run it any time: `python _tools_verify_relationships.py` |
+[_tools_rebuild_dataset.py](_tools_rebuild_dataset.py) | Regenerates the dataset from scratch. Run it only against the original source CSVs — feeding it its own output re-derives slightly different numbers. |

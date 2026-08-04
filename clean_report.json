@@ -1,0 +1,89 @@
+{
+  "root": "C:\\Users\\SALE\\Documents\\TCL\\Credi-corp\\zdf_mock_data",
+  "destination": "C:\\Users\\SALE\\Documents\\TCL\\Credi-corp\\zdf_mock_data",
+  "in_place": true,
+  "dry_run": false,
+  "files": {
+    "Lending/lending_applications.csv": {
+      "rows": 38874
+    },
+    "Lending/lending_approvals.csv": {
+      "rows": 31150
+    },
+    "Lending/lending_beneficiaries.csv": {
+      "rows": 18000
+    },
+    "Lending/lending_disbursements.csv": {
+      "rows": 30742
+    },
+    "Lending/lending_repayments.csv": {
+      "rows": 275319
+    },
+    "PFI Partner Portal/pfi_borrowers.csv": {
+      "rows": 193435
+    },
+    "PFI Partner Portal/pfi_partners.csv": {
+      "rows": 38
+    },
+    "PFI Partner Portal/pfi_portfolio_records.csv": {
+      "rows": 238869
+    },
+    "PFI Partner Portal/pfi_submissions.csv": {
+      "rows": 950
+    },
+    "finance/finance_budget_lines.csv": {
+      "rows": 48
+    },
+    "finance/finance_drawdowns.csv": {
+      "rows": 69
+    },
+    "finance/finance_funding_sources.csv": {
+      "rows": 3
+    },
+    "finance/finance_payments.csv": {
+      "rows": 31728
+    },
+    "finance/finance_treasury_positions.csv": {
+      "rows": 734
+    },
+    "procurement/procurement_awards.csv": {
+      "rows": 590
+    },
+    "procurement/procurement_bids.csv": {
+      "rows": 3472
+    },
+    "procurement/procurement_compliance_documents.csv": {
+      "rows": 600
+    },
+    "procurement/procurement_contract_variations.csv": {
+      "rows": 154
+    },
+    "procurement/procurement_contracts.csv": {
+      "rows": 590
+    },
+    "procurement/procurement_invoices.csv": {
+      "rows": 986
+    },
+    "procurement/procurement_requisitions.csv": {
+      "rows": 800
+    },
+    "procurement/procurement_vendors.csv": {
+      "rows": 150
+    }
+  },
+  "names": {
+    "designators_collapsed": 0,
+    "duplicates_disambiguated": 0,
+    "payee_values_cascaded": 0,
+    "examples": [],
+    "duplicate_examples": []
+  },
+  "validation": {
+    "passed": true,
+    "returncode": 0,
+    "summary": [
+      "130 PASS / 0 FAIL"
+    ],
+    "stderr": []
+  }
+}
