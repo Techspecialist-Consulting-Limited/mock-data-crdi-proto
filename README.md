@@ -8,6 +8,7 @@ Mock dataset for the Zero-interest Development Fund (ZDF). **Each folder is a da
 | `PFI Partner Portal/` | What partner financial institutions report back | 4 |
 | `finance/` | Money in, money out, budget and treasury | 5 |
 | `procurement/` | Buying goods and services | 8 |
+| `memos/` | Internal memos and the approval chain behind them | 2 |
 
 Every figure is as at the **data as-of date: 2026-08-04**. Data covers **2024-08-01 → 2026-08-04**.
 
@@ -195,9 +196,50 @@ procurement_vendors        (150 suppliers)
 
 ---
 
-# 5. Cross-database connections
+# 5. `memos/` — internal memos and their approval chain
 
-These four links tie the databases into one system.
+Two tables. One memo, and the trail of who signed it.
+
+```
+memo_register           (the memo itself)
+        │  1 → many
+memo_approval_steps     (each action taken on it)
+```
+
+### `memo_register.csv` — 600 rows
+**PK** `memo_id` (`MEM-<year>-<seq>`)
+
+| Column | Notes |
+|---|---|
+| `memo_type` | `Approval Request` (270), `Directive` (180), `Informational` (150) |
+| `addressed_to` | Approval requests go to the Managing Director; the rest to All Staff / Heads of Department |
+| `originating_department` | Uses the **same department names** as `procurement/` and `finance/`. Three departments raise memos but no purchase requisitions: Finance & Treasury, Human Resources, Growth & Strategy |
+| `amount_ngn` | Blank where the memo asks for a decision rather than money |
+| `current_stage` | `Issued`, `Awaiting head`, `Awaiting MD`, `Approved`, `Rejected` |
+| `current_approver_role` | Who it is sitting with right now. Blank once the memo is settled |
+| `related_partner_id` | **FK → X7.** Blank unless the memo names one partner |
+| `related_requisition_id` | **FK → X8.** Blank unless the memo names one procurement |
+| `related_budget_id` | **FK → X9.** Set wherever a memo carries money and its department holds a budget line that year |
+
+### `memo_approval_steps.csv` — 715 rows
+**PK** `step_id` · **FK** `memo_id` → `memo_register.memo_id`
+
+Only approval requests have steps; directives and informational memos are issued and never enter a chain. The chain is Submission → Departmental Recommendation → Executive Decision, and the third step exists only where the MD must sign.
+
+- **Anything at or above ₦15,000,000 must be signed by the Managing Director.** Below that, the head of department closes it out.
+- A step with `status` `Pending` and no `action_date` is the one currently waiting on someone.
+
+### Rules that hold
+- Every `memo_id` in `memo_approval_steps` exists in `memo_register`; no orphans.
+- No memo references a requisition raised after the memo was written, or a partner onboarded after it.
+- Memos proposing suspension of a partner point only at partners whose status is `Probation`.
+- A memo's `related_requisition_id` always belongs to the memo's own department, and its `related_budget_id` to the same department and fiscal year.
+
+---
+
+# 6. Cross-database connections
+
+These links tie the databases into one system.
 
 | # | Link | Meaning |
 |---|---|---|
@@ -207,6 +249,9 @@ These four links tie the databases into one system.
 | **X4** | `PFI Partner Portal/pfi_portfolio_records.disbursement_id` → `Lending/lending_disbursements.disbursement_id` | **The reconciliation link** (see below) |
 | **X5** | `procurement/procurement_requisitions.budget_id` → `finance/finance_budget_lines.budget_id` | Budget control over procurement |
 | **X6** | `PFI Partner Portal/pfi_borrowers.beneficiary_id` → `Lending/lending_beneficiaries.beneficiary_id` | Same person, both sides of the pipe |
+| **X7** | `memos/memo_register.related_partner_id` → `PFI Partner Portal/pfi_partners.partner_id` | The partner institution a memo concerns |
+| **X8** | `memos/memo_register.related_requisition_id` → `procurement/procurement_requisitions.requisition_id` | The procurement a memo seeks approval for |
+| **X9** | `memos/memo_register.related_budget_id` → `finance/finance_budget_lines.budget_id` | The budget line a memo's spend is charged to |
 
 ## The reconciliation link (X4) — what it lets you prove
 
@@ -227,7 +272,7 @@ finance_funding_sources → finance_drawdowns → finance_payments
 
 ---
 
-# 6. Reference figures (as at 2026-08-04)
+# 7. Reference figures (as at 2026-08-04)
 
 | Measure | Value |
 |---|---|
@@ -242,7 +287,7 @@ finance_funding_sources → finance_drawdowns → finance_payments
 
 ---
 
-# 7. Data cleaning applied
+# 8. Data cleaning applied
 
 The whole dataset has been run through [clean_script.py](clean_script.py). It is **idempotent** — running it again produces byte-identical files — and it finishes by re-running all 130 relationship checks, **rolling back automatically if any of them break**. Cleaning is never allowed to damage the relationships in sections 1–5.
 
@@ -336,7 +381,7 @@ Every run writes `clean_report.json` listing what changed, per file and per colu
 
 ---
 
-# 8. Working with this data
+# 9. Working with this data
 
 - **Join on IDs, never on names or free text.** Every relationship above is an ID column.
 - **Derived columns must be recalculated, not typed.** Anything marked *derived* (`record_count`, `drawn`, `actual`, `contract_value`, `days_overdue`, `zdf_exposure`, the whole treasury table, vendor and submission `status`) will contradict its source table if you edit it directly.

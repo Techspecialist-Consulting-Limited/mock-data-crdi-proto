@@ -9,7 +9,7 @@ import csv, random, os
 from datetime import date, timedelta
 
 random.seed(4102)
-OUT = "/home/claude/memogen/out"
+OUT = os.path.dirname(os.path.abspath(__file__))   # write beside this script
 os.makedirs(OUT, exist_ok=True)
 
 END   = date(2026, 8, 4)      # demonstration date
@@ -20,7 +20,7 @@ MD_THRESHOLD = 15_000_000     # above this, the MD must sign
 DEPTS = [
     "Lending Operations", "Risk & Compliance", "Finance & Treasury",
     "Procurement & Logistics", "IT & Infrastructure", "Human Resources",
-    "Growth & Strategy", "Executive Office",
+    "Growth & Strategy", "Executive Admin",
 ]
 
 HEAD_TITLE = {
@@ -31,7 +31,7 @@ HEAD_TITLE = {
     "IT & Infrastructure":     "Head of ICT",
     "Human Resources":         "Head of Human Resources",
     "Growth & Strategy":       "Head of Growth & Strategy",
-    "Executive Office":        "Head, Executive Office",
+    "Executive Admin":         "Head, Executive Admin",
 }
 
 STAFF = [
@@ -50,10 +50,58 @@ HEADS = {
     "IT & Infrastructure":     "Emeka Nwosu",
     "Human Resources":         "Grace Ibekwe",
     "Growth & Strategy":       "Funmi Adeyemi",
-    "Executive Office":        "Peter Adeniyi",
+    "Executive Admin":         "Peter Adeniyi",
 }
 
 MD_NAME = "Dr. Amina Bello"
+
+
+# ---------------------------------------------------------------- linked records
+# Memos previously referenced other systems only in prose ("Approval to suspend a
+# partner institution"), which reads well but can't be joined or verified. These
+# load the real registers so a memo can carry an actual foreign key.
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+REPO = os.path.dirname(HERE)   # this script lives in <repo>/memos/
+
+def _read(*parts):
+    with open(os.path.join(REPO, *parts), newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+REQUISITIONS = _read("procurement", "procurement_requisitions.csv")
+PARTNERS     = _read("PFI Partner Portal", "pfi_partners.csv")
+BUDGET_LINES = _read("finance", "finance_budget_lines.csv")
+
+# keep the raised date alongside the id: a memo must not reference a
+# requisition that had not been raised yet when the memo was written
+REQS_BY_DEPT = {}
+for r in REQUISITIONS:
+    REQS_BY_DEPT.setdefault(r["department"], []).append((r["requisition_id"], r["raised_date"]))
+
+BUDGET_BY_DEPT_YEAR = {}
+for b in BUDGET_LINES:
+    BUDGET_BY_DEPT_YEAR.setdefault((b["department"], b["fiscal_period"]), []).append(b["budget_id"])
+
+PARTNERS_ACTIVE    = [(p["partner_id"], p["onboarding_date"]) for p in PARTNERS if p["status"] == "Active"]
+PARTNERS_PROBATION = [(p["partner_id"], p["onboarding_date"]) for p in PARTNERS if p["status"] == "Probation"]
+
+# Which subjects name one specific record, rather than a general policy position.
+# "suspend a partner institution" must point at a partner actually in trouble;
+# a capacity workshop points at one in good standing.
+SUBJECT_LINK = {
+    "Approval to suspend a partner institution":             ("partner", "probation"),
+    "Request for approval: partner performance incentive":   ("partner", "active"),
+    "Approval to extend partner onboarding window":          ("partner", "active"),
+    "Request for approval: partner capacity workshop":       ("partner", "active"),
+    "Approval of contract award — vehicle maintenance":     ("requisition", None),
+    "Variation to facility management contract":             ("requisition", None),
+    "Approval of policy exception — single source award":   ("requisition", None),
+    "Request for exception to procurement threshold":        ("requisition", None),
+    "Request for approval: core banking licence renewal":    ("requisition", None),
+    "Request for approval: data platform subscription":      ("requisition", None),
+    "Request for approval: server capacity expansion":       ("requisition", None),
+    "Request for approval: disaster recovery site":          ("requisition", None),
+}
 
 # ---------------------------------------------------------------- subjects
 # (subject, department, category, typical value or None)
@@ -69,7 +117,7 @@ APPROVAL = [
     ("Request for approval: data platform subscription", "IT & Infrastructure", "Procurement", 19_600_000),
     ("Approval to write off non-performing exposures", "Risk & Compliance", "Financial", 84_500_000),
     ("Request for approval: partner capacity workshop", "Lending Operations", "Partner", 31_400_000),
-    ("Approval of legal retainer renewal", "Executive Office", "Administrative", 9_800_000),
+    ("Approval of legal retainer renewal", "Executive Admin", "Administrative", 9_800_000),
     ("Request for approval: impact evaluation consultancy", "Growth & Strategy", "Procurement", 22_700_000),
     ("Approval of secondment to supervising ministry", "Human Resources", "HR", None),
     ("Request for exception to procurement threshold", "Procurement & Logistics", "Procurement", 15_300_000),
@@ -78,7 +126,7 @@ APPROVAL = [
     ("Approval of study leave application", "Human Resources", "HR", None),
     ("Request for approval: server capacity expansion", "IT & Infrastructure", "Procurement", 34_100_000),
     ("Approval to suspend a partner institution", "Risk & Compliance", "Partner", None),
-    ("Request for approval: quarterly board pack printing", "Executive Office", "Administrative", 2_400_000),
+    ("Request for approval: quarterly board pack printing", "Executive Admin", "Administrative", 2_400_000),
     ("Approval of revised per diem rates", "Finance & Treasury", "Policy", None),
     ("Request for approval: market research engagement", "Growth & Strategy", "Procurement", 8_900_000),
     ("Approval of contract award — vehicle maintenance", "Procurement & Logistics", "Procurement", 6_700_000),
@@ -97,7 +145,7 @@ DIRECTIVE = [
     ("Revised partner reporting submission calendar", "Lending Operations", "Partner"),
     ("Updated information security access policy", "IT & Infrastructure", "Policy"),
     ("Revised expense claim procedure", "Finance & Treasury", "Financial"),
-    ("New whistleblowing reporting channel", "Executive Office", "Policy"),
+    ("New whistleblowing reporting channel", "Executive Admin", "Policy"),
     ("Updated procurement documentation standards", "Procurement & Logistics", "Procurement"),
     ("Revised credit file retention requirements", "Risk & Compliance", "Policy"),
     ("Updated leave application procedure", "Human Resources", "HR"),
@@ -112,8 +160,8 @@ INFORMATIONAL = [
     ("Update on regional office relocation", "Procurement & Logistics", "Administrative"),
     ("Quarterly portfolio performance briefing", "Lending Operations", "Operational"),
     ("Notification: scheduled system maintenance", "IT & Infrastructure", "Operational"),
-    ("Update on supervising ministry engagement", "Executive Office", "Administrative"),
-    ("Board meeting outcomes summary", "Executive Office", "Administrative"),
+    ("Update on supervising ministry engagement", "Executive Admin", "Administrative"),
+    ("Board meeting outcomes summary", "Executive Admin", "Administrative"),
     ("Notification: audit fieldwork commencement", "Risk & Compliance", "Operational"),
     ("Update on partner onboarding pipeline", "Growth & Strategy", "Partner"),
     ("Notification: revised bank mandate signatories", "Finance & Treasury", "Financial"),
@@ -187,11 +235,41 @@ for mtype in plan:
     deadline = (sub_d + timedelta(days=random.choice([7, 10, 14, 21, 30]))).isoformat() \
         if random.random() < 0.65 else ""
 
+    # ---- real foreign keys, where the subject names one specific record
+    related_partner_id = related_requisition_id = related_budget_id = ""
+    link = SUBJECT_LINK.get(subject)
+    if link:
+        kind, want = link
+        iso = sub_d.isoformat()
+        if kind == "partner":
+            src = PARTNERS_PROBATION if want == "probation" else PARTNERS_ACTIVE
+            pool = [pid for pid, onboarded in src if onboarded <= iso]
+            if pool:
+                related_partner_id = random.choice(pool)
+        elif kind == "requisition":
+            # already raised, and recent enough that the memo plausibly concerns it
+            cutoff = (sub_d - timedelta(days=270)).isoformat()
+            src = REQS_BY_DEPT.get(dept, [])
+            pool = [rid for rid, raised in src if cutoff <= raised <= iso]
+            if not pool:
+                pool = [rid for rid, raised in src if raised <= iso]
+            if pool:
+                related_requisition_id = random.choice(pool)
+    # anything carrying money is charged against a real budget line for that
+    # department and year, where one exists
+    if amount:
+        pool = BUDGET_BY_DEPT_YEAR.get((dept, str(sub_d.year)), [])
+        if pool:
+            related_budget_id = random.choice(pool)
+
     memo = dict(
         memo_id=mid, memo_type=mtype, subject=subject, addressed_to=addressed,
         raised_by=raiser, originating_department=dept, purpose_statement=purpose,
         category=category, amount_ngn=amount, action_required=ACTION[mtype],
         response_deadline=deadline, submitted_date=sub_d.isoformat(),
+        related_partner_id=related_partner_id,
+        related_requisition_id=related_requisition_id,
+        related_budget_id=related_budget_id,
     )
 
     # ---- non-approval types are issued and never enter a chain
@@ -289,18 +367,22 @@ for mtype in plan:
 MEMO_COLS = ["memo_id","memo_type","subject","addressed_to","raised_by",
              "originating_department","purpose_statement","category","amount_ngn",
              "action_required","response_deadline","current_stage",
-             "current_approver_role","submitted_date","last_action_date"]
+             "current_approver_role","submitted_date","last_action_date",
+             "related_partner_id","related_requisition_id","related_budget_id"]
 STEP_COLS = ["step_id","memo_id","step_number","step_name","approver_role",
              "approver_name","status","action_date","comments"]
 
 def write(name, rows, cols):
-    with open(os.path.join(OUT, name), "w", newline="") as f:
+    # encoding pinned: on Windows the default is cp1252, which silently turns
+    # the em-dashes in these subjects into bytes the app (and Fabric) then read
+    # as mojibake. This is what corrupted the first cut of this dataset.
+    with open(os.path.join(OUT, name), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader(); w.writerows(rows)
     print(f"  {name:28s} {len(rows):>5,} rows")
 
 memos.sort(key=lambda m: m["submitted_date"])
-write("memos.csv", memos, MEMO_COLS)
+write("memo_register.csv", memos, MEMO_COLS)
 write("memo_approval_steps.csv", steps, STEP_COLS)
 
 # ---------------------------------------------------------------- check

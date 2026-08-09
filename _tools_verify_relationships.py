@@ -12,6 +12,7 @@ def truthy(v):
 
 L = os.path.join(ROOT, 'Lending'); P = os.path.join(ROOT, 'PFI Partner Portal')
 F = os.path.join(ROOT, 'finance'); R = os.path.join(ROOT, 'procurement')
+M = os.path.join(ROOT, 'memos')
 ASOF = datetime(2026, 8, 4); ASOFS = '2026-08-04'
 
 def load(d, n):
@@ -317,6 +318,62 @@ for r in linked:
     exposure[r['partner_id']] += float(r['amount'])
 chk("P6/X1 partner.zdf_exposure == sum of linked portal amounts",
     all(abs(float(p['zdf_exposure']) - exposure[p['partner_id']]) < 1 for p in part))
+
+# ---------- memos ----------
+memo = load(M, 'memo_register.csv'); mstep = load(M, 'memo_approval_steps.csv')
+memoids = {m['memo_id'] for m in memo}
+
+chk("M0 memo_register.memo_id unique", len(memoids) == len(memo))
+chk("M0 memo_approval_steps.step_id unique", len({x['step_id'] for x in mstep}) == len(mstep))
+chk("M1 approval_steps.memo_id -> memo_register", all(x['memo_id'] in memoids for x in mstep))
+chk("X7 memo.related_partner_id -> pfi_partners",
+    all(not m['related_partner_id'] or m['related_partner_id'] in pids for m in memo))
+chk("X8 memo.related_requisition_id -> requisitions",
+    all(not m['related_requisition_id'] or m['related_requisition_id'] in reqids for m in memo))
+chk("X9 memo.related_budget_id -> budget_lines",
+    all(not m['related_budget_id'] or m['related_budget_id'] in bgtids for m in memo))
+
+# only approval requests enter a chain
+chained = {x['memo_id'] for x in mstep}
+chk("M2 only approval requests have steps",
+    all(m['memo_type'] == 'Approval Request' for m in memo if m['memo_id'] in chained))
+chk("M2 every approval request has steps",
+    all(m['memo_id'] in chained for m in memo if m['memo_type'] == 'Approval Request'))
+
+# a memo cannot reference a record that did not exist yet
+reqdate = {r['requisition_id']: r['raised_date'] for r in req}
+pardate = {x['partner_id']: x['onboarding_date'] for x in part}
+subdate = {m['memo_id']: m['submitted_date'] for m in memo}
+chk("M3 referenced requisition predates the memo",
+    all(reqdate[m['related_requisition_id']] <= m['submitted_date']
+        for m in memo if m['related_requisition_id']))
+chk("M3 referenced partner onboarded before the memo",
+    all(pardate[m['related_partner_id']] <= m['submitted_date']
+        for m in memo if m['related_partner_id']))
+chk("M3 no step predates its memo",
+    all(not x['action_date'] or x['action_date'] >= subdate[x['memo_id']] for x in mstep))
+
+# the links mean what they say
+pstat = {x['partner_id']: x['status'] for x in part}
+chk("M4 suspension memos name a partner on probation",
+    all(pstat[m['related_partner_id']] == 'Probation'
+        for m in memo if m['related_partner_id'] and m['subject'].startswith('Approval to suspend')))
+reqdept = {r['requisition_id']: r['department'] for r in req}
+chk("M4 referenced requisition is the memo's own department",
+    all(reqdept[m['related_requisition_id']] == m['originating_department']
+        for m in memo if m['related_requisition_id']))
+bgtdept = {b['budget_id']: (b['department'], b['fiscal_period']) for b in bgt}
+chk("M4 referenced budget matches memo department and year",
+    all(bgtdept[m['related_budget_id']] == (m['originating_department'], m['submitted_date'][:4])
+        for m in memo if m['related_budget_id']))
+
+# money that must be signed by the MD actually is
+THRESHOLD = 15_000_000
+chk("M5 memos at or above NGN15m route to the MD",
+    all(m['current_approver_role'] == 'Managing Director'
+        for m in memo if m['memo_type'] == 'Approval Request' and m['amount_ngn']
+        and float(m['amount_ngn']) >= THRESHOLD and m['current_stage'] == 'Awaiting MD'))
+
 
 print()
 print(str(len(ok)) + " PASS / " + str(len(bad)) + " FAIL")
